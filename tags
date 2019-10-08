@@ -1,0 +1,1420 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFA_IOC_MAGIC	iocontrol.h	20;"	d
+APIVerion	api.h	/^    Byte	APIVerion[32];      \/** XX.XX.XXXXXXXX.XX Ex., 1.2.3.4	*\/$/;"	m	struct:__anon3
+APIVerion	api.h	/^    Byte  APIVerion[32];         \/\/ XX.XX.XXXXXXXX.XX Ex., 1.2.3.4.$/;"	m	struct:__anon4
+APIVerion	iocontrol.h	/^    Byte                APIVerion[32];      \/** XX.XX.XXXXXXXX.XX Ex., 1.2.3.4	*\/$/;"	m	struct:__anon53
+APIVerion	iocontrol.h	/^    Byte                APIVerion[32];      \/** XX.XX.XXXXXXXX.XX Ex., 1.2.3.4	*\/$/;"	m	struct:__anon54
+ARIB_STD_B31	type.h	/^	ARIB_STD_B31 = 0,					\/** System based on this specification							*\/$/;"	e	enum:__anon138
+AcquireChannel	type.h	/^typedef Dword (*AcquireChannel) ($/;"	t
+AcquireChannelRequest	iocontrol.h	/^} AcquireChannelRequest, *PAcquireChannelRequest;$/;"	t	typeref:struct:__anon34
+AcquirePlatformRequest	iocontrol.h	/^} AcquirePlatformRequest, *PAcquirePlatformRequest;$/;"	t	typeref:struct:__anon42
+AddPidAtRequest	iocontrol.h	/^} AddPidAtRequest, *PAddPidAtRequest;$/;"	t	typeref:struct:__anon43
+AdjustTuner	type.h	/^typedef Dword (*AdjustTuner) ($/;"	t
+AgcVoltage	inttype.h	/^} AgcVoltage;$/;"	t	typeref:struct:__anon27
+AgcVoltage	type.h	/^} AgcVoltage;$/;"	t	typeref:struct:__anon129
+Architecture	type.h	/^} Architecture;$/;"	t	typeref:enum:__anon116
+Architecture_DCA	type.h	/^	Architecture_DCA,$/;"	e	enum:__anon116
+Architecture_NONE	type.h	/^	Architecture_NONE = 0,		\/\/ Inavalid (Null) Architecture$/;"	e	enum:__anon116
+Architecture_PIP	type.h	/^	Architecture_PIP$/;"	e	enum:__anon116
+Bandwidth	torf.c	/^	Word Bandwidth;$/;"	m	struct:__anon81	file:
+Bandwidth	type.h	/^} Bandwidth;$/;"	t	typeref:enum:__anon89
+Bandwidth_5M	type.h	/^    Bandwidth_5M                \/** Signal bandwidth is 5MHz *\/$/;"	e	enum:__anon89
+Bandwidth_6M	type.h	/^    Bandwidth_6M = 0,           \/** Signal bandwidth is 6MHz *\/$/;"	e	enum:__anon89
+Bandwidth_7M	type.h	/^    Bandwidth_7M,               \/** Signal bandwidth is 7MHz *\/$/;"	e	enum:__anon89
+Bandwidth_8M	type.h	/^    Bandwidth_8M,               \/** Signal bandwidth is 8MHz *\/$/;"	e	enum:__anon89
+BitRate_Kbps	iocontrol.h	/^    Word				BitRate_Kbps;$/;"	m	struct:__anon74
+Bool	type.h	/^} Bool;$/;"	t	typeref:enum:__anon87
+BurstSize	type.h	/^} BurstSize;$/;"	t	typeref:enum:__anon123
+BurstSize_1024	type.h	/^	BurstSize_1024 = 0,$/;"	e	enum:__anon123
+BurstSize_2048	type.h	/^	BurstSize_2048,$/;"	e	enum:__anon123
+BurstSize_4096	type.h	/^	BurstSize_4096$/;"	e	enum:__anon123
+BusDescription	type.h	/^} BusDescription;$/;"	t	typeref:struct:__anon130
+Byte	type.h	/^typedef unsigned char Byte;$/;"	t
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wno-unused-but-set-variable $(EXTRA_CFLAGS) -MD -Wall -g -O2 -I..\/..\/include -I..\/lib -I.\/ $/;"	m
+CHIPTYPE_INFO	api.h	/^} CHIPTYPE_INFO, *PCHIPTYPE_INFO;$/;"	t	typeref:struct:__anon2
+CalibrationInfo	type.h	/^} CalibrationInfo;$/;"	t	typeref:struct:__anon84
+ChannelModulation	type.h	/^} ChannelModulation;$/;"	t	typeref:struct:__anon98
+ChannelStatistic	inttype.h	/^} ChannelStatistic;$/;"	t	typeref:struct:__anon26
+ChannelStatistic	type.h	/^} ChannelStatistic;$/;"	t	typeref:struct:__anon127
+ClearInterrupt	type.h	/^typedef Dword (*ClearInterrupt) ($/;"	t
+ClkDelay	torf.c	/^void ClkDelay(Dword delay)$/;"	f
+ClockTable	type.h	/^} ClockTable;$/;"	t	typeref:struct:__anon117
+CloseTuner	type.h	/^typedef Dword (*CloseTuner) ($/;"	t
+CodeRate	type.h	/^} CodeRate;$/;"	t	typeref:enum:__anon94
+CodeRate_1_OVER_2	type.h	/^    CodeRate_1_OVER_2 = 0,      \/** Signal uses FEC coding ratio of 1\/2 *\/$/;"	e	enum:__anon94
+CodeRate_2_OVER_3	type.h	/^    CodeRate_2_OVER_3,          \/** Signal uses FEC coding ratio of 2\/3 *\/$/;"	e	enum:__anon94
+CodeRate_3_OVER_4	type.h	/^    CodeRate_3_OVER_4,          \/** Signal uses FEC coding ratio of 3\/4 *\/$/;"	e	enum:__anon94
+CodeRate_5_OVER_6	type.h	/^    CodeRate_5_OVER_6,          \/** Signal uses FEC coding ratio of 5\/6 *\/$/;"	e	enum:__anon94
+CodeRate_7_OVER_8	type.h	/^    CodeRate_7_OVER_8,          \/** Signal uses FEC coding ratio of 7\/8 *\/$/;"	e	enum:__anon94
+CodeRate_NONE	type.h	/^    CodeRate_NONE               \/** None, NXT doesn't have this one     *\/$/;"	e	enum:__anon94
+Company	api.h	/^    Byte	Company[8];         \/** Ex.,"ITEtech"						*\/$/;"	m	struct:__anon3
+Company	api.h	/^    Byte  Company[8];            \/\/ Ex.,"Afatech".$/;"	m	struct:__anon4
+Company	iocontrol.h	/^    Byte                Company[8];         \/** Ex.,"ITEtech"					*\/$/;"	m	struct:__anon53
+Company	iocontrol.h	/^    Byte                Company[8];         \/** Ex.,"ITEtech"					*\/$/;"	m	struct:__anon54
+Component	type.h	/^} Component;$/;"	t	typeref:struct:__anon106
+Constellation	type.h	/^} Constellation;$/;"	t	typeref:enum:__anon137
+Constellation_16QAM	type.h	/^    Constellation_16QAM,        \/** Signal uses 16QAM constellation *\/$/;"	e	enum:__anon137
+Constellation_64QAM	type.h	/^    Constellation_64QAM         \/** Signal uses 64QAM constellation *\/$/;"	e	enum:__anon137
+Constellation_QPSK	type.h	/^    Constellation_QPSK = 0,     \/** Signal uses QPSK constellation  *\/$/;"	e	enum:__anon137
+ControlPidFilterRequest	iocontrol.h	/^} ControlPidFilterRequest, *PControlPidFilterRequest;$/;"	t	typeref:struct:__anon49
+ControlPowerSavingRequest	iocontrol.h	/^} ControlPowerSavingRequest, *PControlPowerSavingRequest;$/;"	t	typeref:struct:__anon51
+CustomPacket_1	torf.c	/^Byte CustomPacket_1[188]={$/;"	v
+CustomPacket_2	torf.c	/^Byte CustomPacket_2[188]={$/;"	v
+CustomPacket_3	torf.c	/^Byte CustomPacket_3[188]={0x47,0x10,0x03,0x1c,0x00,0x00};$/;"	v
+CustomPacket_4	torf.c	/^Byte CustomPacket_4[188]={0x47,0x10,0x04,0x1c,0x00,0x00};$/;"	v
+CustomPacket_5	torf.c	/^Byte CustomPacket_5[188]={0x47,0x10,0x05,0x1c,0x00,0x00};$/;"	v
+DCInfo	type.h	/^} DCInfo;$/;"	t	typeref:struct:__anon86
+DCInfoAddr	iocontrol.h	/^	__u32				DCInfoAddr;	\/\/DCInfo*$/;"	m	struct:__anon77
+DCtable	type.h	/^} DCtable;$/;"	t	typeref:struct:__anon85
+DEVICE_INFO	api.h	/^} DEVICE_INFO, *PDEVICE_INFO;$/;"	t	typeref:struct:__anon3
+DTVBandwidth	api.h	/^} DTVBandwidth;$/;"	t	typeref:enum:__anon18
+DTVBandwidth_5M	api.h	/^    DTVBandwidth_5M              \/\/ Signal bandwidth is 5MHz.$/;"	e	enum:__anon18
+DTVBandwidth_6M	api.h	/^    DTVBandwidth_6M = 0,         \/\/ Signal bandwidth is 6MHz.$/;"	e	enum:__anon18
+DTVBandwidth_7M	api.h	/^    DTVBandwidth_7M,             \/\/ Signal bandwidth is 7MHz.$/;"	e	enum:__anon18
+DTVBandwidth_8M	api.h	/^    DTVBandwidth_8M,             \/\/ Signal bandwidth is 8MHz.$/;"	e	enum:__anon18
+DTVChannelTPSInfo	api.h	/^} DTVChannelTPSInfo, *PDTVChannelTPSInfo;$/;"	t	typeref:struct:__anon19
+DTVCodeRate	api.h	/^} DTVCodeRate;$/;"	t	typeref:enum:__anon16
+DTVCodeRate_1_OVER_2	api.h	/^    DTVCodeRate_1_OVER_2 = 0,    \/\/ Signal uses FEC coding ratio of 1\/2.$/;"	e	enum:__anon16
+DTVCodeRate_2_OVER_3	api.h	/^    DTVCodeRate_2_OVER_3,        \/\/ Signal uses FEC coding ratio of 2\/3.$/;"	e	enum:__anon16
+DTVCodeRate_3_OVER_4	api.h	/^    DTVCodeRate_3_OVER_4,        \/\/ Signal uses FEC coding ratio of 3\/4.$/;"	e	enum:__anon16
+DTVCodeRate_5_OVER_6	api.h	/^    DTVCodeRate_5_OVER_6,        \/\/ Signal uses FEC coding ratio of 5\/6.$/;"	e	enum:__anon16
+DTVCodeRate_7_OVER_8	api.h	/^    DTVCodeRate_7_OVER_8,        \/\/ Signal uses FEC coding ratio of 7\/8.$/;"	e	enum:__anon16
+DTVCodeRate_NONE	api.h	/^    DTVCodeRate_NONE             \/\/ None, NXT doesn't have this one.$/;"	e	enum:__anon16
+DTVComponent	api.h	/^} DTVComponent, *PDTVComponent;$/;"	t	typeref:struct:__anon23
+DTVConstellation	api.h	/^} DTVConstellation;$/;"	t	typeref:enum:__anon14
+DTVConstellation_16QAM	api.h	/^    DTVConstellation_16QAM,      \/\/ Signal uses 16QAM constellation.$/;"	e	enum:__anon14
+DTVConstellation_64QAM	api.h	/^    DTVConstellation_64QAM       \/\/ Signal uses 64QAM constellation.$/;"	e	enum:__anon14
+DTVConstellation_QPSK	api.h	/^    DTVConstellation_QPSK = 0,   \/\/ Signal uses QPSK constellation.$/;"	e	enum:__anon14
+DTVDriverInfo	api.h	/^} DTVDriverInfo, *PDTVDriverInfo;$/;"	t	typeref:struct:__anon4
+DTVEXPORT	api.h	44;"	d
+DTVEnsemble	api.h	/^} DTVEnsemble, *PDTVEnsemble;$/;"	t	typeref:struct:__anon21
+DTVFrameRow	api.h	/^} DTVFrameRow;$/;"	t	typeref:enum:__anon10
+DTVFrameRow_1024	api.h	/^	DTVFrameRow_1024				\/\/ There should be 1024 rows for each column in MPE-FEC frame.$/;"	e	enum:__anon10
+DTVFrameRow_256	api.h	/^	DTVFrameRow_256 = 0,			\/\/ There should be 256 rows for each column in MPE-FEC frame.$/;"	e	enum:__anon10
+DTVFrameRow_512	api.h	/^	DTVFrameRow_512,				\/\/ There should be 512 rows for each column in MPE-FEC frame.$/;"	e	enum:__anon10
+DTVFrameRow_768	api.h	/^	DTVFrameRow_768,				\/\/ There should be 768 rows for each column in MPE-FEC frame.$/;"	e	enum:__anon10
+DTVHierarchy	api.h	/^} DTVHierarchy;$/;"	t	typeref:enum:__anon17
+DTVHierarchy_ALPHA_1	api.h	/^    DTVHierarchy_ALPHA_1,        \/\/ Signalling format uses alpha of 1.$/;"	e	enum:__anon17
+DTVHierarchy_ALPHA_2	api.h	/^    DTVHierarchy_ALPHA_2,        \/\/ Signalling format uses alpha of 2.$/;"	e	enum:__anon17
+DTVHierarchy_ALPHA_4	api.h	/^    DTVHierarchy_ALPHA_4         \/\/ Signalling format uses alpha of 4.$/;"	e	enum:__anon17
+DTVHierarchy_NONE	api.h	/^    DTVHierarchy_NONE = 0,       \/\/ Signal is non-hierarchical.$/;"	e	enum:__anon17
+DTVInterval	api.h	/^} DTVInterval;$/;"	t	typeref:enum:__anon15
+DTVInterval_1_OVER_16	api.h	/^    DTVInterval_1_OVER_16,       \/\/ Guard interval is 1\/16 of symbol length.$/;"	e	enum:__anon15
+DTVInterval_1_OVER_32	api.h	/^    DTVInterval_1_OVER_32 = 0,   \/\/ Guard interval is 1\/32 of symbol length.$/;"	e	enum:__anon15
+DTVInterval_1_OVER_4	api.h	/^    DTVInterval_1_OVER_4         \/\/ Guard interval is 1\/4 of symbol length.$/;"	e	enum:__anon15
+DTVInterval_1_OVER_8	api.h	/^    DTVInterval_1_OVER_8,        \/\/ Guard interval is 1\/8 of symbol length.$/;"	e	enum:__anon15
+DTVIp	api.h	/^} DTVIp, *PDTVIp;$/;"	t	typeref:struct:__anon7
+DTVIpVersion	api.h	/^} DTVIpVersion;$/;"	t	typeref:enum:__anon6
+DTVIpVersion_IPV4	api.h	/^	DTVIpVersion_IPV4 = 0,       \/\/ The IP version if IPv4.$/;"	e	enum:__anon6
+DTVIpVersion_IPV6	api.h	/^	DTVIpVersion_IPV6 = 1        \/\/ The IP version if IPv6.$/;"	e	enum:__anon6
+DTVLabel	api.h	/^} DTVLabel, *PDTVLabel;$/;"	t	typeref:struct:__anon20
+DTVMode	iocontrol.h	/^    Byte			DTVMode;$/;"	m	struct:__anon79
+DTVPid	api.h	/^} DTVPid, *PDTVPid;$/;"	t	typeref:struct:__anon11
+DTVPlatform	api.h	/^} DTVPlatform, *PDTVPlatform;$/;"	t	typeref:struct:__anon8
+DTVPriority	api.h	/^} DTVPriority;$/;"	t	typeref:enum:__anon5
+DTVPriority_HIGH	api.h	/^    DTVPriority_HIGH = 0,        \/\/ DVB-T and DVB-H - identifies high-priority stream.$/;"	e	enum:__anon5
+DTVPriority_LOW	api.h	/^    DTVPriority_LOW              \/\/ DVB-T and DVB-H - identifies low-priority stream.$/;"	e	enum:__anon5
+DTVSectionType	api.h	/^} DTVSectionType;$/;"	t	typeref:enum:__anon9
+DTVSectionType_MPE	api.h	/^	DTVSectionType_MPE = 0,      \/\/ Stands for MPE data.$/;"	e	enum:__anon9
+DTVSectionType_SIPSI	api.h	/^	DTVSectionType_SIPSI,        \/\/ Stands for SI\/PSI table, but don't have to specify table ID.$/;"	e	enum:__anon9
+DTVSectionType_TABLE	api.h	/^	DTVSectionType_TABLE         \/\/ Stands for SI\/PSI table.$/;"	e	enum:__anon9
+DTVService	api.h	/^} DTVService, *PDTVService;$/;"	t	typeref:struct:__anon22
+DTVStatistic	api.h	/^} DTVStatistic, *PDTVStatistic;$/;"	t	typeref:struct:__anon12
+DTVStreamType	api.h	/^} DTVStreamType;$/;"	t	typeref:enum:__anon1
+DTVStreamType_DVBH_DATABURST	api.h	/^	DTVStreamType_DVBH_DATABURST,$/;"	e	enum:__anon1
+DTVStreamType_DVBH_DATAGRAM	api.h	/^	DTVStreamType_DVBH_DATAGRAM,$/;"	e	enum:__anon1
+DTVStreamType_DVBT_DATAGRAM	api.h	/^	DTVStreamType_DVBT_DATAGRAM,$/;"	e	enum:__anon1
+DTVStreamType_DVBT_PARALLEL	api.h	/^	DTVStreamType_DVBT_PARALLEL,$/;"	e	enum:__anon1
+DTVStreamType_DVBT_SERIAL	api.h	/^	DTVStreamType_DVBT_SERIAL,$/;"	e	enum:__anon1
+DTVStreamType_FM_DATAGRAM	api.h	/^	DTVStreamType_FM_DATAGRAM,$/;"	e	enum:__anon1
+DTVStreamType_FM_I2S	api.h	/^	DTVStreamType_FM_I2S$/;"	e	enum:__anon1
+DTVStreamType_NONE	api.h	/^	DTVStreamType_NONE = 0,		\/\/ Invalid (Null) StreamType$/;"	e	enum:__anon1
+DTVStreamType_TDMB_DATAGRAM	api.h	/^	DTVStreamType_TDMB_DATAGRAM,$/;"	e	enum:__anon1
+DTVTransmissionMode	api.h	/^} DTVTransmissionMode;$/;"	t	typeref:enum:__anon13
+DTVTransmissionMode_2K	api.h	/^    DTVTransmissionMode_2K = 0,  \/\/ OFDM frame consists of 2048 different carriers (2K FFT mode).$/;"	e	enum:__anon13
+DTVTransmissionMode_4K	api.h	/^    DTVTransmissionMode_4K = 2   \/\/ OFDM frame consists of 4096 different carriers (4K FFT mode).$/;"	e	enum:__anon13
+DTVTransmissionMode_8K	api.h	/^    DTVTransmissionMode_8K = 1,  \/\/ OFDM frame consists of 8192 different carriers (8K FFT mode).$/;"	e	enum:__anon13
+DateTime	api.h	/^    Byte	DateTime[24];       \/** Ex.,"2004-12-20 18:30:00" or "DEC 20 2004 10:22:10" with compiler __DATE__ and __TIME__  definitions *\/$/;"	m	struct:__anon3
+DateTime	api.h	/^    Byte  DateTime[24];          \/\/ Ex.,"2004-12-20 18:30:00" or "DEC 20 2004 10:22:10" with compiler __DATE__ and __TIME__  definitions.$/;"	m	struct:__anon4
+DateTime	iocontrol.h	/^    Byte                DateTime[24];       \/** Ex.,"2004-12-20 18:30:00" or "DEC 20 2004 10:22:10" with compiler __DATE__ and __TIME__  definitions *\/$/;"	m	struct:__anon53
+DateTime	iocontrol.h	/^    Byte                DateTime[24];       \/** Ex.,"2004-12-20 18:30:00" or "DEC 20 2004 10:22:10" with compiler __DATE__ and __TIME__  definitions *\/$/;"	m	struct:__anon54
+Datetime	type.h	/^} Datetime;$/;"	t	typeref:struct:__anon112
+DefaultDemodulator	type.h	/^} DefaultDemodulator;$/;"	t	typeref:struct:__anon133
+Default_IQtable_Path	torf.c	132;"	d	file:
+DemodDriverInfo	iocontrol.h	/^} DemodDriverInfo, *PDemodDriverInfo;$/;"	t	typeref:struct:__anon53
+Demodulator	type.h	/^} Demodulator;$/;"	t	typeref:struct:__anon125
+DeviceType	iocontrol.h	/^    Byte				DeviceType;$/;"	m	struct:__anon38
+DeviceType	iocontrol.h	/^    Byte				DeviceType;$/;"	m	struct:__anon39
+DownSampleRate	type.h	/^} DownSampleRate;$/;"	t	typeref:enum:__anon141
+DownSampleRate_21_OVER_1	type.h	/^    DownSampleRate_21_OVER_1 = 0,      \/** Signal uses FEC coding ratio of 21\/1 *\/$/;"	e	enum:__anon141
+DownSampleRate_21_OVER_2	type.h	/^    DownSampleRate_21_OVER_2,		   \/** Signal uses FEC coding ratio of 21\/2 *\/$/;"	e	enum:__anon141
+DownSampleRate_21_OVER_3	type.h	/^    DownSampleRate_21_OVER_3,		   \/** Signal uses FEC coding ratio of 21\/3 *\/$/;"	e	enum:__anon141
+DownSampleRate_21_OVER_4	type.h	/^    DownSampleRate_21_OVER_4,		   \/** Signal uses FEC coding ratio of 21\/4 *\/$/;"	e	enum:__anon141
+DownSampleRate_21_OVER_5	type.h	/^    DownSampleRate_21_OVER_5,	       \/** Signal uses FEC coding ratio of 21\/5 *\/$/;"	e	enum:__anon141
+DownSampleRate_21_OVER_6	type.h	/^    DownSampleRate_21_OVER_6,	       \/** Signal uses FEC coding ratio of 21\/6 *\/$/;"	e	enum:__anon141
+DriverVerion	api.h	/^    Byte	DriverVerion[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon3
+DriverVerion	api.h	/^    Byte  DriverVerion[16];      \/\/ XX.XX.XX.XX Ex., 1.2.3.4.$/;"	m	struct:__anon4
+DriverVerion	iocontrol.h	/^    Byte                DriverVerion[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon53
+DriverVerion	iocontrol.h	/^    Byte                DriverVerion[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon54
+Dword	type.h	/^typedef unsigned long Dword;$/;"	t
+EAGLEI	api.h	/^    EAGLEI = 0,$/;"	e	enum:__anon24
+EAGLEII	api.h	/^    EAGLEII,$/;"	e	enum:__anon24
+ERROR	torf.c	36;"	d	file:
+ERR_BACK_TO_BOOTCODE_FAIL	error.h	49;"	d
+ERR_BUFFER_INSUFFICIENT	error.h	63;"	d
+ERR_CANT_FIND_EEPROM	error.h	66;"	d
+ERR_CANT_FIND_ORIG_TOPS	error.h	58;"	d
+ERR_CANT_FIND_USB_DEV	error.h	69;"	d
+ERR_CE_NOT_READY	error.h	43;"	d
+ERR_CMD_NOT_SUPPORTED	error.h	42;"	d
+ERR_COM_CLK_HIGH_FAIL	error.h	86;"	d
+ERR_COM_DATA_HIGH_FAIL	error.h	85;"	d
+ERR_COM_DATA_LOW_FAIL	error.h	88;"	d
+ERR_COM_NO_ERROR	error.h	84;"	d
+ERR_COM_WRITE_NO_ACK	error.h	87;"	d
+ERR_COUNTER_NOT_AVAILABLE	error.h	64;"	d
+ERR_CREATEFILE_FAIL	error.h	21;"	d
+ERR_DIV_MORE_THAN_8_CHIPS	error.h	28;"	d
+ERR_DIV_NO_CHIPS	error.h	29;"	d
+ERR_DYNA_TOP_FAIL	error.h	53;"	d
+ERR_EMBX_INT_NOT_CLEARED	error.h	45;"	d
+ERR_FEC_MON_NOT_ENABLED	error.h	15;"	d
+ERR_FFT_SHIFT_TIMEOUT	error.h	34;"	d
+ERR_FREQ_OUT_OF_RANGE	error.h	47;"	d
+ERR_FUNC_INTERRUPTED	error.h	56;"	d
+ERR_GET_BUFFER_VALUE_FAIL	error.h	50;"	d
+ERR_I2C_DONT_SUPPORT	error.h	79;"	d
+ERR_I2C_NO_ERROR	error.h	77;"	d
+ERR_I2C_NULL_HANDLE	error.h	78;"	d
+ERR_INVALID_AGC_VOLT	error.h	41;"	d
+ERR_INVALID_BUF_LEN	error.h	37;"	d
+ERR_INVALID_BW	error.h	36;"	d
+ERR_INVALID_CHIP_REV	error.h	62;"	d
+ERR_INVALID_CONSTELLATION_MODE	error.h	32;"	d
+ERR_INVALID_DEVICE_COUNT	error.h	71;"	d
+ERR_INVALID_DEV_TYPE	error.h	16;"	d
+ERR_INVALID_FFT_MODE	error.h	31;"	d
+ERR_INVALID_FILE_SIZE	error.h	23;"	d
+ERR_INVALID_INDEX	error.h	54;"	d
+ERR_INVALID_POS	error.h	52;"	d
+ERR_INVALID_READ_SIZE	error.h	24;"	d
+ERR_INVALID_REG_VALUE	error.h	59;"	d
+ERR_INVALID_TUNER_TYPE	error.h	17;"	d
+ERR_INVALID_XTAL_FREQ	error.h	70;"	d
+ERR_INV_MISC_REG	error.h	68;"	d
+ERR_INV_PULLUP_VOLT	error.h	46;"	d
+ERR_LOADFW_COMP_FAIL	error.h	65;"	d
+ERR_LOAD_FW_DONE_BUT_FAIL	error.h	25;"	d
+ERR_MALLOC_FAIL	error.h	22;"	d
+ERR_MEM_ALLOC_FAIL	error.h	51;"	d
+ERR_MT_NOT_AVAILABLE	error.h	48;"	d
+ERR_MT_OPEN_FAIL	error.h	40;"	d
+ERR_MT_TUNE_FAIL	error.h	39;"	d
+ERR_NOT_IMPLEMENTED	error.h	26;"	d
+ERR_NO_ERROR	error.h	7;"	d
+ERR_NULL_PTR	error.h	38;"	d
+ERR_OPEN_FILE_FAIL	error.h	18;"	d
+ERR_READFILE_FAIL	error.h	20;"	d
+ERR_READ_TUNER_FAIL	error.h	44;"	d
+ERR_READ_TUNER_TIMEOUT	error.h	12;"	d
+ERR_RESET_TIMEOUT	error.h	8;"	d
+ERR_RSD_COUNTER_NOT_READY	error.h	13;"	d
+ERR_RSD_PKT_CNT_0	error.h	33;"	d
+ERR_SUPER_FRAME_CNT_0	error.h	30;"	d
+ERR_TUNER_NOT_SUPPORT	error.h	60;"	d
+ERR_TUNER_TYPE_NOT_SUPPORT	error.h	67;"	d
+ERR_UNDEFINED_SAW_BW	error.h	61;"	d
+ERR_USB_BAD_STATUS	error.h	98;"	d
+ERR_USB_BOOT_BAD_BOOT_CHKSUM	error.h	130;"	d
+ERR_USB_BOOT_BAD_BOOT_HEADER	error.h	125;"	d
+ERR_USB_BOOT_BAD_BOOT_PATTERN_01	error.h	128;"	d
+ERR_USB_BOOT_BAD_BOOT_PATTERN_10	error.h	129;"	d
+ERR_USB_BOOT_BAD_BOOT_SIZE	error.h	126;"	d
+ERR_USB_BOOT_BAD_BOOT_SN	error.h	127;"	d
+ERR_USB_BOOT_BAD_CONFIG_CHKSUM	error.h	116;"	d
+ERR_USB_BOOT_BAD_CONFIG_HEADER	error.h	111;"	d
+ERR_USB_BOOT_BAD_CONFIG_SIZE	error.h	112;"	d
+ERR_USB_BOOT_BAD_CONFIG_SN	error.h	113;"	d
+ERR_USB_BOOT_BAD_CONFIG_SUBTYPE	error.h	114;"	d
+ERR_USB_BOOT_BAD_CONFIG_VALUE	error.h	115;"	d
+ERR_USB_BOOT_BAD_CONFIG_VAlUE	error.h	133;"	d
+ERR_USB_BOOT_BAD_CONFIRM_CHKSUM	error.h	123;"	d
+ERR_USB_BOOT_BAD_CONFIRM_HEADER	error.h	118;"	d
+ERR_USB_BOOT_BAD_CONFIRM_SIZE	error.h	119;"	d
+ERR_USB_BOOT_BAD_CONFIRM_SN	error.h	120;"	d
+ERR_USB_BOOT_BAD_CONFIRM_SUBTYPE	error.h	121;"	d
+ERR_USB_BOOT_BAD_CONFIRM_VALUE	error.h	122;"	d
+ERR_USB_BOOT_INVALID_PKT_TYPE	error.h	109;"	d
+ERR_USB_COCREATCLSEENUMERATOR_FAIL	error.h	137;"	d
+ERR_USB_COCREATEINSTANCE_FAIL	error.h	136;"	d
+ERR_USB_COINITIALIZEEX_FAIL	error.h	135;"	d
+ERR_USB_EP$_INVALID_READ_SIZE	error.h	107;"	d
+ERR_USB_EP4_READFILE_FAIL	error.h	106;"	d
+ERR_USB_INVALID_BOOT_PKT_TYPE	error.h	132;"	d
+ERR_USB_INVALID_DATA_LEN	error.h	104;"	d
+ERR_USB_INVALID_HANDLE	error.h	140;"	d
+ERR_USB_INVALID_HEADER	error.h	101;"	d
+ERR_USB_INVALID_IR_PKT	error.h	103;"	d
+ERR_USB_INVALID_PKT_SIZE	error.h	100;"	d
+ERR_USB_INVALID_READ_SIZE	error.h	97;"	d
+ERR_USB_INVALID_SN	error.h	99;"	d
+ERR_USB_NO_BURST_READ	error.h	142;"	d
+ERR_USB_NO_ERROR	error.h	93;"	d
+ERR_USB_NO_IR_PKT	error.h	102;"	d
+ERR_USB_NULL_HANDLE	error.h	94;"	d
+ERR_USB_NULL_PENUM	error.h	143;"	d
+ERR_USB_PKSCTRL_NULL	error.h	139;"	d
+ERR_USB_QUERY_INTERFACE_FAIL	error.h	138;"	d
+ERR_USB_READFILE_FAIL	error.h	96;"	d
+ERR_USB_TOO_MUCH_WRITE_DATA	error.h	141;"	d
+ERR_USB_WRITEFILE_FAIL	error.h	95;"	d
+ERR_VTB_COUNTER_NOT_READY	error.h	14;"	d
+ERR_WAIT_PVIT_TIMEOUT	error.h	55;"	d
+ERR_WAIT_TPS_TIMEOUT	error.h	35;"	d
+ERR_WRITEFILE_FAIL	error.h	19;"	d
+ERR_WRITE_MBX_TUNER_TIMEOUT	error.h	27;"	d
+ERR_WRITE_REG_TIMEOUT	error.h	9;"	d
+ERR_WRITE_TUNER_FAIL	error.h	11;"	d
+ERR_WRITE_TUNER_TIMEOUT	error.h	10;"	d
+ERR_XTAL_NOT_SUPPORT	error.h	57;"	d
+EXTRA_CFLAGS	Makefile	/^EXTRA_CFLAGS := -Wno-pointer-to-int-cast$/;"	m
+Ensemble	type.h	/^} Ensemble;$/;"	t	typeref:struct:__anon104
+EnterStreamType	type.h	/^typedef Dword (*EnterStreamType) ($/;"	t
+FWVerionLink	api.h	/^    Byte	FWVerionLink[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon3
+FWVerionLink	api.h	/^    Byte  FWVerionLink[16];      \/\/ XX.XX.XX.XX Ex., 1.2.3.4.$/;"	m	struct:__anon4
+FWVerionLink	iocontrol.h	/^    Byte                FWVerionLink[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon53
+FWVerionLink	iocontrol.h	/^    Byte                FWVerionLink[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon54
+FWVerionOFDM	api.h	/^    Byte	FWVerionOFDM[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon3
+FWVerionOFDM	api.h	/^    Byte  FWVerionOFDM[16];      \/\/ XX.XX.XX.XX Ex., 1.2.3.4.$/;"	m	struct:__anon4
+FWVerionOFDM	iocontrol.h	/^    Byte                FWVerionOFDM[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon53
+FWVerionOFDM	iocontrol.h	/^    Byte                FWVerionOFDM[16];   \/** XX.XX.XX.XX Ex., 1.2.3.4			*\/$/;"	m	struct:__anon54
+False	type.h	/^    False = 0,$/;"	e	enum:__anon87
+Fft	type.h	/^} Fft;$/;"	t	typeref:enum:__anon91
+Fft_2K	type.h	/^    Fft_2K = 0,$/;"	e	enum:__anon91
+Fft_4K	type.h	/^    Fft_4K = 2$/;"	e	enum:__anon91
+Fft_8K	type.h	/^    Fft_8K = 1,$/;"	e	enum:__anon91
+FrameRow	type.h	/^} FrameRow;$/;"	t	typeref:enum:__anon108
+FrameRow_1024	type.h	/^	FrameRow_1024$/;"	e	enum:__anon108
+FrameRow_256	type.h	/^	FrameRow_256 = 0,$/;"	e	enum:__anon108
+FrameRow_512	type.h	/^	FrameRow_512,$/;"	e	enum:__anon108
+FrameRow_768	type.h	/^	FrameRow_768,$/;"	e	enum:__anon108
+Frequency	torf.c	/^	Dword Frequency;$/;"	m	struct:__anon81	file:
+GainValue	iocontrol.h	/^    int				GainValue;$/;"	m	struct:__anon40
+Ganymede	type.h	/^} Ganymede;$/;"	t	typeref:struct:__anon134
+Gemini	type.h	/^} Gemini;$/;"	t	typeref:struct:__anon136
+GetCRC32	crc.h	/^static unsigned  GetCRC32(const Byte*pBuffer, int nLength)$/;"	f
+GetChannelStatisticRequest	iocontrol.h	/^} GetChannelStatisticRequest, *PGetChannelStatisticRequest;$/;"	t	typeref:struct:__anon47
+GetData	type.h	/^typedef Dword (*GetData) ($/;"	t
+GetDataLength	type.h	/^typedef Dword (*GetDataLength) ($/;"	t
+GetDatagram	type.h	/^typedef Dword (*GetDatagram) ($/;"	t
+GetDriverInfo	torf.c	/^static int GetDriverInfo(HandleType HandleNum, Byte DevNo)$/;"	f	file:
+GetFileSize	torf.c	/^intmax_t GetFileSize(const char* filePath)$/;"	f
+GetInterrupts	type.h	/^typedef Dword (*GetInterrupts) ($/;"	t
+GetStatistic	type.h	/^typedef Dword (*GetStatistic) ($/;"	t
+GetStatisticRequest	iocontrol.h	/^} GetStatisticRequest, *PGetStatisticRequest;$/;"	t	typeref:struct:__anon48
+GetTickCount	torf.c	/^unsigned long GetTickCount()$/;"	f
+Get_DataBitRate_S	torf.c	/^long int Get_DataBitRate_S(char *FilePath)$/;"	f
+Get_PAT_TSID_SID	torf.c	/^long int Get_PAT_TSID_SID(FILE * TsFile,Byte *TSid,Byte *Sid,intmax_t FileLength)$/;"	f
+HIGHBYTE	type.h	1461;"	d
+Handle	type.h	/^typedef void* Handle;$/;"	t
+HandleType	api.h	/^} HandleType;$/;"	t	typeref:enum:__anon24
+Hierarchy	type.h	/^} Hierarchy;$/;"	t	typeref:enum:__anon95
+Hierarchy_ALPHA_1	type.h	/^    Hierarchy_ALPHA_1,          \/** Signalling format uses alpha of 1 *\/$/;"	e	enum:__anon95
+Hierarchy_ALPHA_2	type.h	/^    Hierarchy_ALPHA_2,          \/** Signalling format uses alpha of 2 *\/$/;"	e	enum:__anon95
+Hierarchy_ALPHA_4	type.h	/^    Hierarchy_ALPHA_4           \/** Signalling format uses alpha of 4 *\/$/;"	e	enum:__anon95
+Hierarchy_NONE	type.h	/^    Hierarchy_NONE = 0,         \/** Signal is non-hierarchical        *\/$/;"	e	enum:__anon95
+IN	type.h	8;"	d
+INOUT	type.h	10;"	d
+INVALID_HANDLE_VALUE	api.h	46;"	d
+IOCTLCode	api.h	/^	Dword IOCTLCode;$/;"	m	struct:_MODULATION_PARAM
+IOCTL_ITE_DEMOD_ACQUIRECHANNEL	iocontrol.h	444;"	d
+IOCTL_ITE_DEMOD_ADDPIDAT	iocontrol.h	597;"	d
+IOCTL_ITE_DEMOD_CONTROLPIDFILTER	iocontrol.h	590;"	d
+IOCTL_ITE_DEMOD_CONTROLPOWERSAVING	iocontrol.h	475;"	d
+IOCTL_ITE_DEMOD_GETCHANNELSTATISTIC	iocontrol.h	469;"	d
+IOCTL_ITE_DEMOD_GETDRIVERINFO	iocontrol.h	643;"	d
+IOCTL_ITE_DEMOD_GETSTATISTIC	iocontrol.h	460;"	d
+IOCTL_ITE_DEMOD_ISLOCKED	iocontrol.h	451;"	d
+IOCTL_ITE_DEMOD_READREGISTERS	iocontrol.h	430;"	d
+IOCTL_ITE_DEMOD_RESETPID	iocontrol.h	583;"	d
+IOCTL_ITE_DEMOD_STARTCAPTURE	iocontrol.h	650;"	d
+IOCTL_ITE_DEMOD_STOPCAPTURE	iocontrol.h	657;"	d
+IOCTL_ITE_DEMOD_WRITEREGISTERS	iocontrol.h	423;"	d
+IOCTL_ITE_MOD_ACCESSFWPSITABLE	iocontrol.h	727;"	d
+IOCTL_ITE_MOD_ACQUIRECHANNEL	iocontrol.h	489;"	d
+IOCTL_ITE_MOD_ADDPIDAT	iocontrol.h	604;"	d
+IOCTL_ITE_MOD_ADDPIDTOISDBTPIDFILTER	iocontrol.h	801;"	d
+IOCTL_ITE_MOD_ADJUSTOUTPUTGAIN	iocontrol.h	531;"	d
+IOCTL_ITE_MOD_CONTROLPIDFILTER	iocontrol.h	618;"	d
+IOCTL_ITE_MOD_CONTROLPOWERSAVING	iocontrol.h	551;"	d
+IOCTL_ITE_MOD_ENABLETXMODE	iocontrol.h	496;"	d
+IOCTL_ITE_MOD_GETCHIPTYPE	iocontrol.h	572;"	d
+IOCTL_ITE_MOD_GETDEVICETYPE	iocontrol.h	524;"	d
+IOCTL_ITE_MOD_GETDRIVERINFO	iocontrol.h	678;"	d
+IOCTL_ITE_MOD_GETDTVMODE	iocontrol.h	808;"	d
+IOCTL_ITE_MOD_GETFREQUENCYINDEX	iocontrol.h	762;"	d
+IOCTL_ITE_MOD_GETGAINRANGE	iocontrol.h	538;"	d
+IOCTL_ITE_MOD_GETOUTPUTGAIN	iocontrol.h	545;"	d
+IOCTL_ITE_MOD_GETTMCCINFO	iocontrol.h	787;"	d
+IOCTL_ITE_MOD_GETTPS	iocontrol.h	706;"	d
+IOCTL_ITE_MOD_GETTSINPUTBITRATE	iocontrol.h	794;"	d
+IOCTL_ITE_MOD_READEEPROMVALUES	iocontrol.h	565;"	d
+IOCTL_ITE_MOD_READREGISTERS	iocontrol.h	503;"	d
+IOCTL_ITE_MOD_RESETPID	iocontrol.h	611;"	d
+IOCTL_ITE_MOD_SENDHWPSITABLE	iocontrol.h	720;"	d
+IOCTL_ITE_MOD_SETDCCALIBRATIONVALUE	iocontrol.h	632;"	d
+IOCTL_ITE_MOD_SETDCTABLE	iocontrol.h	755;"	d
+IOCTL_ITE_MOD_SETDEVICETYPE	iocontrol.h	517;"	d
+IOCTL_ITE_MOD_SETFWPSITABLETIMER	iocontrol.h	734;"	d
+IOCTL_ITE_MOD_SETIQTABLE	iocontrol.h	625;"	d
+IOCTL_ITE_MOD_SETISDBTCHANNELMODULATION	iocontrol.h	773;"	d
+IOCTL_ITE_MOD_SETMODULE	iocontrol.h	482;"	d
+IOCTL_ITE_MOD_SETPCRMODE	iocontrol.h	748;"	d
+IOCTL_ITE_MOD_SETTMCCINFO	iocontrol.h	780;"	d
+IOCTL_ITE_MOD_SETTPS	iocontrol.h	713;"	d
+IOCTL_ITE_MOD_STARTTRANSFER	iocontrol.h	664;"	d
+IOCTL_ITE_MOD_STARTTRANSFER_CMD	iocontrol.h	685;"	d
+IOCTL_ITE_MOD_STOPTRANSFER	iocontrol.h	671;"	d
+IOCTL_ITE_MOD_STOPTRANSFER_CMD	iocontrol.h	692;"	d
+IOCTL_ITE_MOD_WRITEEEPROMVALUES	iocontrol.h	558;"	d
+IOCTL_ITE_MOD_WRITEREGISTERS	iocontrol.h	510;"	d
+IOCTL_ITE_MOD_WRITE_CMD	iocontrol.h	699;"	d
+IOCTL_ITE_MOD_WRITE_LOWBITRATEDATA	iocontrol.h	741;"	d
+IOCTRL_ITE_GROUP_DVBH	iocontrol.h	409;"	d
+IOCTRL_ITE_GROUP_DVBT	iocontrol.h	408;"	d
+IOCTRL_ITE_GROUP_FM	iocontrol.h	410;"	d
+IOCTRL_ITE_GROUP_ISDBT	iocontrol.h	413;"	d
+IOCTRL_ITE_GROUP_OTHER	iocontrol.h	412;"	d
+IOCTRL_ITE_GROUP_STANDARD	iocontrol.h	407;"	d
+IOCTRL_ITE_GROUP_TDMB	iocontrol.h	411;"	d
+IQTABLE_NROW	torf.c	131;"	d	file:
+IQtable	type.h	/^} IQtable;$/;"	t	typeref:struct:__anon83
+IQtableSize	iocontrol.h	/^	Word				IQtableSize;$/;"	m	struct:__anon68
+ISDBTModulation	type.h	/^} ISDBTModulation;$/;"	t	typeref:struct:__anon143
+ISDB_TSB	type.h	/^	ISDB_TSB							\/** System for ISDB-TSB											*\/$/;"	e	enum:__anon138
+Interrupt	type.h	/^} Interrupt;$/;"	t	typeref:enum:__anon113
+Interrupt_DVBH	type.h	/^	Interrupt_DVBH		= 0x0002,$/;"	e	enum:__anon113
+Interrupt_DVBT	type.h	/^	Interrupt_DVBT		= 0x0004,$/;"	e	enum:__anon113
+Interrupt_FIC	type.h	/^	Interrupt_FIC		= 0x0100,$/;"	e	enum:__anon113
+Interrupt_FREQUENCY	type.h	/^	Interrupt_FREQUENCY = 0x0020,$/;"	e	enum:__anon113
+Interrupt_MCISI	type.h	/^	Interrupt_MCISI		= 0x0400$/;"	e	enum:__anon113
+Interrupt_MSC	type.h	/^	Interrupt_MSC		= 0x0200,$/;"	e	enum:__anon113
+Interrupt_NONE	type.h	/^	Interrupt_NONE		= 0x0000,$/;"	e	enum:__anon113
+Interrupt_PLATFORM	type.h	/^	Interrupt_PLATFORM	= 0x0008,$/;"	e	enum:__anon113
+Interrupt_SIPSI	type.h	/^	Interrupt_SIPSI		= 0x0001,$/;"	e	enum:__anon113
+Interrupt_SOFTWARE1	type.h	/^	Interrupt_SOFTWARE1	= 0x0040,$/;"	e	enum:__anon113
+Interrupt_SOFTWARE2	type.h	/^	Interrupt_SOFTWARE2	= 0x0080,$/;"	e	enum:__anon113
+Interrupt_VERSION	type.h	/^	Interrupt_VERSION	= 0x0010,$/;"	e	enum:__anon113
+Interrupts	type.h	/^typedef Word Interrupts;$/;"	t
+Interval	type.h	/^} Interval;$/;"	t	typeref:enum:__anon92
+Interval_1_OVER_16	type.h	/^    Interval_1_OVER_16,         \/** Guard interval is 1\/16 of symbol length *\/$/;"	e	enum:__anon92
+Interval_1_OVER_32	type.h	/^    Interval_1_OVER_32 = 0,     \/** Guard interval is 1\/32 of symbol length *\/$/;"	e	enum:__anon92
+Interval_1_OVER_4	type.h	/^    Interval_1_OVER_4           \/** Guard interval is 1\/4 of symbol length  *\/$/;"	e	enum:__anon92
+Interval_1_OVER_8	type.h	/^    Interval_1_OVER_8,          \/** Guard interval is 1\/8 of symbol length  *\/$/;"	e	enum:__anon92
+Ip	type.h	/^} Ip;$/;"	t	typeref:struct:__anon101
+IpVersion	type.h	/^} IpVersion;$/;"	t	typeref:enum:__anon100
+IpVersion_IPV4	type.h	/^	IpVersion_IPV4 = 0,$/;"	e	enum:__anon100
+IpVersion_IPV6	type.h	/^	IpVersion_IPV6 = 1$/;"	e	enum:__anon100
+IsLocked	type.h	/^typedef Dword (*IsLocked) ($/;"	t
+IsLockedRequest	iocontrol.h	/^} IsLockedRequest, *PIsLockedRequest;$/;"	t	typeref:struct:__anon41
+Jupiter	type.h	/^} Jupiter;$/;"	t	typeref:struct:__anon135
+KD_NA	Makefile	/^KD_NA = torf$/;"	m
+KLOG	torf.c	22;"	d	file:
+LFLAGS	Makefile	/^LFLAGS = -Wall -g -O2 -lc$/;"	m
+LIST_SIZE	torf.c	120;"	d	file:
+LOWBYTE	type.h	1460;"	d
+Label	type.h	/^} Label;$/;"	t	typeref:struct:__anon103
+LayerA	type.h	/^   LayerA = 2,$/;"	e	enum:__anon140
+LayerAB	type.h	/^   LayerAB = 3$/;"	e	enum:__anon140
+LayerB	type.h	/^   LayerB = 1,$/;"	e	enum:__anon140
+LeaveStreamType	type.h	/^typedef Dword (*LeaveStreamType) ($/;"	t
+LoadFirmware	type.h	/^typedef Dword (*LoadFirmware) ($/;"	t
+Long	type.h	/^typedef long Long;$/;"	t
+MEMORY_INDICATOR_DATA	type.h	16;"	d
+MEMORY_INDICATOR_FIGBYPASS	type.h	19;"	d
+MEMORY_INDICATOR_MCI	type.h	17;"	d
+MEMORY_INDICATOR_PAGGING	type.h	20;"	d
+MEMORY_INDICATOR_SI	type.h	18;"	d
+MODULATION_PARAM	api.h	/^} MODULATION_PARAM, *PMODULATION_PARAM;$/;"	t	typeref:struct:_MODULATION_PARAM
+MeanTable	type.h	/^} MeanTable;$/;"	t	typeref:struct:__anon119
+Mode	type.h	/^} Mode;$/;"	t	typeref:enum:__anon90
+Mode_16QAM	type.h	/^    Mode_16QAM,$/;"	e	enum:__anon90
+Mode_64QAM	type.h	/^    Mode_64QAM$/;"	e	enum:__anon90
+Mode_QPSK	type.h	/^    Mode_QPSK = 0,$/;"	e	enum:__anon90
+ModifyRegister	type.h	/^typedef Dword (*ModifyRegister) ($/;"	t
+ModulatorParam	torf.c	/^} ModulatorParam;$/;"	t	typeref:struct:__anon81	file:
+MultiValueSet	type.h	/^} MultiValueSet;$/;"	t	typeref:struct:__anon111
+Multiplier	type.h	/^} Multiplier;$/;"	t	typeref:enum:__anon114
+Multiplier_1X	type.h	/^	Multiplier_1X = 0,$/;"	e	enum:__anon114
+Multiplier_2X	type.h	/^	Multiplier_2X$/;"	e	enum:__anon114
+NullPacket	torf.c	/^Byte NullPacket[188]={0x47,0x1f,0xff,0x1c,0x00,0x00};$/;"	v
+OBJS	Makefile	/^OBJS = api.o $(KD_NA).o$/;"	m
+OUT	type.h	9;"	d
+OnOff	iocontrol.h	/^    Byte				OnOff;$/;"	m	struct:__anon37
+OpenTuner	type.h	/^typedef Dword (*OpenTuner) ($/;"	t
+PAcquireChannelRequest	iocontrol.h	/^} AcquireChannelRequest, *PAcquireChannelRequest;$/;"	t	typeref:struct:__anon34
+PAcquirePlatformRequest	iocontrol.h	/^} AcquirePlatformRequest, *PAcquirePlatformRequest;$/;"	t	typeref:struct:__anon42
+PAddPidAtRequest	iocontrol.h	/^} AddPidAtRequest, *PAddPidAtRequest;$/;"	t	typeref:struct:__anon43
+PCHIPTYPE_INFO	api.h	/^} CHIPTYPE_INFO, *PCHIPTYPE_INFO;$/;"	t	typeref:struct:__anon2
+PControlPidFilterRequest	iocontrol.h	/^} ControlPidFilterRequest, *PControlPidFilterRequest;$/;"	t	typeref:struct:__anon49
+PControlPowerSavingRequest	iocontrol.h	/^} ControlPowerSavingRequest, *PControlPowerSavingRequest;$/;"	t	typeref:struct:__anon51
+PDEVICE_INFO	api.h	/^} DEVICE_INFO, *PDEVICE_INFO;$/;"	t	typeref:struct:__anon3
+PDTVChannelTPSInfo	api.h	/^} DTVChannelTPSInfo, *PDTVChannelTPSInfo;$/;"	t	typeref:struct:__anon19
+PDTVComponent	api.h	/^} DTVComponent, *PDTVComponent;$/;"	t	typeref:struct:__anon23
+PDTVDriverInfo	api.h	/^} DTVDriverInfo, *PDTVDriverInfo;$/;"	t	typeref:struct:__anon4
+PDTVEnsemble	api.h	/^} DTVEnsemble, *PDTVEnsemble;$/;"	t	typeref:struct:__anon21
+PDTVIp	api.h	/^} DTVIp, *PDTVIp;$/;"	t	typeref:struct:__anon7
+PDTVLabel	api.h	/^} DTVLabel, *PDTVLabel;$/;"	t	typeref:struct:__anon20
+PDTVPid	api.h	/^} DTVPid, *PDTVPid;$/;"	t	typeref:struct:__anon11
+PDTVPlatform	api.h	/^} DTVPlatform, *PDTVPlatform;$/;"	t	typeref:struct:__anon8
+PDTVService	api.h	/^} DTVService, *PDTVService;$/;"	t	typeref:struct:__anon22
+PDTVStatistic	api.h	/^} DTVStatistic, *PDTVStatistic;$/;"	t	typeref:struct:__anon12
+PDemodDriverInfo	iocontrol.h	/^} DemodDriverInfo, *PDemodDriverInfo;$/;"	t	typeref:struct:__anon53
+PERROR	torf.c	41;"	d	file:
+PGetChannelStatisticRequest	iocontrol.h	/^} GetChannelStatisticRequest, *PGetChannelStatisticRequest;$/;"	t	typeref:struct:__anon47
+PGetStatisticRequest	iocontrol.h	/^} GetStatisticRequest, *PGetStatisticRequest;$/;"	t	typeref:struct:__anon48
+PIDINFO	torf.c	/^} PIDINFO, *PPIDINFO;$/;"	t	typeref:struct:__anon82	file:
+PIsLockedRequest	iocontrol.h	/^} IsLockedRequest, *PIsLockedRequest;$/;"	t	typeref:struct:__anon41
+PMODULATION_PARAM	api.h	/^} MODULATION_PARAM, *PMODULATION_PARAM;$/;"	t	typeref:struct:_MODULATION_PARAM
+PPIDINFO	torf.c	/^} PIDINFO, *PPIDINFO;$/;"	t	typeref:struct:__anon82	file:
+PReadRegistersRequest	iocontrol.h	/^} ReadRegistersRequest, *PReadRegistersRequest;$/;"	t	typeref:struct:__anon31
+PResetPidRequest	iocontrol.h	/^} ResetPidRequest, *PResetPidRequest;$/;"	t	typeref:struct:__anon45
+PStartCaptureRequest	iocontrol.h	/^} StartCaptureRequest, *PStartCaptureRequest;$/;"	t	typeref:struct:__anon55
+PStopCaptureRequest	iocontrol.h	/^} StopCaptureRequest, *PStopCaptureRequest;$/;"	t	typeref:struct:__anon58
+PTXAddPidToISDBTPidFilterRequest	iocontrol.h	/^} TXAddPidToISDBTPidFilterRequest, *PTXAddPidToISDBTPidFilterRequest;$/;"	t	typeref:struct:__anon75
+PTXGetTMCCInfoRequest	iocontrol.h	/^} TXGetTMCCInfoRequest, *PTXGetTMCCInfoRequest;$/;"	t	typeref:struct:__anon73
+PTXGetTSinputBitRateRequest	iocontrol.h	/^} TXGetTSinputBitRateRequest, *PTXGetTSinputBitRateRequest;$/;"	t	typeref:struct:__anon74
+PTXSetISDBTChannelModulationRequest	iocontrol.h	/^} TXSetISDBTChannelModulationRequest, *PTXSetISDBTChannelModulationRequest;$/;"	t	typeref:struct:__anon71
+PTXSetTMCCInfoRequest	iocontrol.h	/^} TXSetTMCCInfoRequest, *PTXSetTMCCInfoRequest;$/;"	t	typeref:struct:__anon72
+PTxAccessFwPSITableRequest	iocontrol.h	/^} TxAccessFwPSITableRequest, *PTxAccessFwPSITableRequest;$/;"	t	typeref:struct:__anon65
+PTxAcquireChannelRequest	iocontrol.h	/^} TxAcquireChannelRequest, *PTxAcquireChannelRequest;$/;"	t	typeref:struct:__anon36
+PTxAddPidAtRequest	iocontrol.h	/^} TxAddPidAtRequest, *PTxAddPidAtRequest;$/;"	t	typeref:struct:__anon44
+PTxCmdRequest	iocontrol.h	/^} TxCmdRequest, *PTxCmdRequest;$/;"	t	typeref:struct:__anon59
+PTxControlPidFilterRequest	iocontrol.h	/^} TxControlPidFilterRequest, *PTxControlPidFilterRequest;$/;"	t	typeref:struct:__anon50
+PTxControlPowerSavingRequest	iocontrol.h	/^} TxControlPowerSavingRequest, *PTxControlPowerSavingRequest;$/;"	t	typeref:struct:__anon52
+PTxGetChipTypeRequest	iocontrol.h	/^} TxGetChipTypeRequest, *PTxGetChipTypeRequest;$/;"	t	typeref:struct:__anon70
+PTxGetDTVModeRequest	iocontrol.h	/^} TxGetDTVModeRequest, *PTxGetDTVModeRequest;$/;"	t	typeref:struct:__anon79
+PTxGetDeviceTypeRequest	iocontrol.h	/^} TxGetDeviceTypeRequest, *PTxGetDeviceTypeRequest;$/;"	t	typeref:struct:__anon39
+PTxGetFrequencyIndexRequest	iocontrol.h	/^} TxGetFrequencyIndexRequest, *PTxGetFrequencyIndexRequest;$/;"	t	typeref:struct:__anon78
+PTxGetGainRangeRequest	iocontrol.h	/^} TxGetGainRangeRequest, *PTxGetGainRangeRequest;$/;"	t	typeref:struct:__anon60
+PTxGetOutputGainRequest	iocontrol.h	/^} TxGetOutputGainRequest, *PTxGetOutputGainRequest;$/;"	t	typeref:struct:__anon63
+PTxGetTPSRequest	iocontrol.h	/^} TxGetTPSRequest, *PTxGetTPSRequest;$/;"	t	typeref:struct:__anon61
+PTxModDriverInfo	iocontrol.h	/^} TxModDriverInfo, *PTxModDriverInfo;$/;"	t	typeref:struct:__anon54
+PTxModeRequest	iocontrol.h	/^} TxModeRequest, *PTxModeRequest;$/;"	t	typeref:struct:__anon37
+PTxReadEepromValuesRequest	iocontrol.h	/^} TxReadEepromValuesRequest, *PTxReadEepromValuesRequest;$/;"	t	typeref:struct:__anon33
+PTxReadRegistersRequest	iocontrol.h	/^} TxReadRegistersRequest, *PTxReadRegistersRequest;$/;"	t	typeref:struct:__anon32
+PTxResetPidRequest	iocontrol.h	/^} TxResetPidRequest, *PTxResetPidRequest;$/;"	t	typeref:struct:__anon46
+PTxSendHwPSITableRequest	iocontrol.h	/^} TxSendHwPSITableRequest, *PTxSendHwPSITableRequest;$/;"	t	typeref:struct:__anon64
+PTxSetDCCalibrationValueRequest	iocontrol.h	/^} TxSetDCCalibrationValueRequest, *PTxSetDCCalibrationValueRequest;$/;"	t	typeref:struct:__anon69
+PTxSetDCTableRequest	iocontrol.h	/^} TxSetDCTableRequest, *PTxSetDCTableRequest;$/;"	t	typeref:struct:__anon77
+PTxSetDeviceTypeRequest	iocontrol.h	/^} TxSetDeviceTypeRequest, *PTxSetDeviceTypeRequest;$/;"	t	typeref:struct:__anon38
+PTxSetFwPSITableTimerRequest	iocontrol.h	/^} TxSetFwPSITableTimerRequest, *PTxSetFwPSITableTimerRequest;$/;"	t	typeref:struct:__anon66
+PTxSetGainRequest	iocontrol.h	/^} TxSetGainRequest, *PTxSetGainRequest;$/;"	t	typeref:struct:__anon40
+PTxSetIQTableRequest	iocontrol.h	/^} TxSetIQTableRequest, *PTxSetIQTableRequest;$/;"	t	typeref:struct:__anon68
+PTxSetLowBitRateTransferRequest	iocontrol.h	/^} TxSetLowBitRateTransferRequest, *PTxSetLowBitRateTransferRequest;$/;"	t	typeref:struct:__anon67
+PTxSetModuleRequest	iocontrol.h	/^} TxSetModuleRequest, *PTxSetModuleRequest;$/;"	t	typeref:struct:__anon35
+PTxSetPcrModeRequest	iocontrol.h	/^} TxSetPcrModeRequest, *PTxSetPcrModeRequest;$/;"	t	typeref:struct:__anon76
+PTxSetTPSRequest	iocontrol.h	/^} TxSetTPSRequest, *PTxSetTPSRequest;$/;"	t	typeref:struct:__anon62
+PTxStartTransferRequest	iocontrol.h	/^} TxStartTransferRequest, *PTxStartTransferRequest;$/;"	t	typeref:struct:__anon56
+PTxStopTransferRequest	iocontrol.h	/^} TxStopTransferRequest, *PTxStopTransferRequest;$/;"	t	typeref:struct:__anon57
+PTxWriteEepromValuesRequest	iocontrol.h	/^} TxWriteEepromValuesRequest, *PTxWriteEepromValuesRequest;$/;"	t	typeref:struct:__anon30
+PTxWriteRegistersRequest	iocontrol.h	/^} TxWriteRegistersRequest, *PTxWriteRegistersRequest;$/;"	t	typeref:struct:__anon29
+PWriteRegistersRequest	iocontrol.h	/^} WriteRegistersRequest, *PWriteRegistersRequest;$/;"	t	typeref:struct:__anon28
+Param	torf.c	/^} Param;$/;"	t	typeref:struct:__anon80	file:
+PcrMode	type.h	/^} PcrMode;$/;"	t	typeref:enum:__anon144
+PcrMode1	type.h	/^	PcrMode1 = 1,$/;"	e	enum:__anon144
+PcrMode2	type.h	/^    PcrMode2,$/;"	e	enum:__anon144
+PcrMode3	type.h	/^	PcrMode3$/;"	e	enum:__anon144
+PcrModeDisable	type.h	/^	PcrModeDisable = 0,$/;"	e	enum:__anon144
+Pid	type.h	/^} Pid;$/;"	t	typeref:struct:__anon109
+PidTable	type.h	/^} PidTable;$/;"	t	typeref:struct:__anon124
+Platform	type.h	/^} Platform;$/;"	t	typeref:struct:__anon102
+Polarity	type.h	/^} Polarity;$/;"	t	typeref:enum:__anon120
+Polarity_INVERSE	type.h	/^    Polarity_INVERSE$/;"	e	enum:__anon120
+Polarity_NORMAL	type.h	/^    Polarity_NORMAL = 0,$/;"	e	enum:__anon120
+Priority	type.h	/^} Priority;             \/\/ High Priority or Low Priority$/;"	t	typeref:enum:__anon93
+Priority_HIGH	type.h	/^    Priority_HIGH = 0,          \/** DVB-T - identifies high-priority stream *\/$/;"	e	enum:__anon93
+Priority_LOW	type.h	/^    Priority_LOW                \/** DVB-T - identifies low-priority stream  *\/$/;"	e	enum:__anon93
+Processor	type.h	/^} Processor;$/;"	t	typeref:enum:__anon121
+Processor_LINK	type.h	/^    Processor_LINK = 0,$/;"	e	enum:__anon121
+Processor_OFDM	type.h	/^    Processor_OFDM = 8$/;"	e	enum:__anon121
+Product	type.h	/^} Product;$/;"	t	typeref:enum:__anon122
+ProductID	api.h	/^	Word	ProductID;$/;"	m	struct:__anon3
+ProductID	api.h	/^	Word ProductID;$/;"	m	struct:__anon2
+Product_GANYMEDE	type.h	/^	Product_GANYMEDE = 0,$/;"	e	enum:__anon122
+Product_GEMINI	type.h	/^    Product_GEMINI,$/;"	e	enum:__anon122
+Product_JUPITER	type.h	/^    Product_JUPITER,$/;"	e	enum:__anon122
+ProtectionLevel	type.h	/^} ProtectionLevel;$/;"	t	typeref:enum:__anon97
+ProtectionLevel_NONE	type.h	/^	ProtectionLevel_NONE = 0x00,$/;"	e	enum:__anon97
+ProtectionLevel_PL1	type.h	/^	ProtectionLevel_PL1 = 0x01,$/;"	e	enum:__anon97
+ProtectionLevel_PL1A	type.h	/^	ProtectionLevel_PL1A = 0x1A,$/;"	e	enum:__anon97
+ProtectionLevel_PL1B	type.h	/^	ProtectionLevel_PL1B = 0x1B,$/;"	e	enum:__anon97
+ProtectionLevel_PL2	type.h	/^	ProtectionLevel_PL2 = 0x02,$/;"	e	enum:__anon97
+ProtectionLevel_PL2A	type.h	/^	ProtectionLevel_PL2A = 0x2A,$/;"	e	enum:__anon97
+ProtectionLevel_PL2B	type.h	/^	ProtectionLevel_PL2B = 0x2B,$/;"	e	enum:__anon97
+ProtectionLevel_PL3	type.h	/^	ProtectionLevel_PL3 = 0x03,$/;"	e	enum:__anon97
+ProtectionLevel_PL3A	type.h	/^	ProtectionLevel_PL3A = 0x3A,$/;"	e	enum:__anon97
+ProtectionLevel_PL3B	type.h	/^	ProtectionLevel_PL3B = 0x3B,$/;"	e	enum:__anon97
+ProtectionLevel_PL4	type.h	/^	ProtectionLevel_PL4 = 0x04,$/;"	e	enum:__anon97
+ProtectionLevel_PL4A	type.h	/^	ProtectionLevel_PL4A = 0x4A,$/;"	e	enum:__anon97
+ProtectionLevel_PL4B	type.h	/^	ProtectionLevel_PL4B = 0x4B$/;"	e	enum:__anon97
+ProtectionLevel_PL5	type.h	/^	ProtectionLevel_PL5 = 0x05,$/;"	e	enum:__anon97
+REG_CLEAR	type.h	1457;"	d
+REG_CREATE	type.h	1458;"	d
+REG_GET	type.h	1459;"	d
+REG_MASK	type.h	1456;"	d
+RM	Makefile	/^RM = rm -f$/;"	m
+ReadEepromValues	type.h	/^typedef Dword (*ReadEepromValues) ($/;"	t
+ReadRegisters	type.h	/^typedef Dword (*ReadRegisters) ($/;"	t
+ReadRegistersRequest	iocontrol.h	/^} ReadRegistersRequest, *PReadRegistersRequest;$/;"	t	typeref:struct:__anon31
+ReadScatterRegisters	type.h	/^typedef Dword (*ReadScatterRegisters) ($/;"	t
+ReadTunerRegisters	type.h	/^typedef Dword (*ReadTunerRegisters) ($/;"	t
+Reboot	type.h	/^typedef Dword (*Reboot) ($/;"	t
+ReceiveData	type.h	/^typedef Dword (*ReceiveData) ($/;"	t
+ResetPidRequest	iocontrol.h	/^} ResetPidRequest, *PResetPidRequest;$/;"	t	typeref:struct:__anon45
+SectionType	type.h	/^} SectionType;$/;"	t	typeref:enum:__anon107
+SectionType_MPE	type.h	/^	SectionType_MPE = 0,$/;"	e	enum:__anon107
+SectionType_SIPSI	type.h	/^	SectionType_SIPSI,$/;"	e	enum:__anon107
+SectionType_TABLE	type.h	/^	SectionType_TABLE$/;"	e	enum:__anon107
+Segment	type.h	/^} Segment;$/;"	t	typeref:struct:__anon88
+SendCommand	type.h	/^typedef Dword (*SendCommand) ($/;"	t
+Service	type.h	/^} Service;$/;"	t	typeref:struct:__anon105
+SetIQCalibrationTable	torf.c	/^Dword SetIQCalibrationTable(Byte DevNo) {$/;"	f
+SetPeriodicCustomPacket	torf.c	/^void SetPeriodicCustomPacket(Handle TsFile, intmax_t FileLength, ModulatorParam param, Byte DevNo)$/;"	f
+SetTuner	type.h	/^typedef Dword (*SetTuner) ($/;"	t
+Short	type.h	/^typedef short Short;$/;"	t
+SnrTable	inttype.h	/^} SnrTable;$/;"	t	typeref:struct:__anon25
+SnrTable	type.h	/^} SnrTable;$/;"	t	typeref:struct:__anon118
+StandardDescription	type.h	/^} StandardDescription;$/;"	t	typeref:struct:__anon132
+StartCaptureRequest	iocontrol.h	/^} StartCaptureRequest, *PStartCaptureRequest;$/;"	t	typeref:struct:__anon55
+Statistic	type.h	/^} Statistic;$/;"	t	typeref:struct:__anon126
+StopCaptureRequest	iocontrol.h	/^} StopCaptureRequest, *PStopCaptureRequest;$/;"	t	typeref:struct:__anon58
+StreamType	type.h	/^} StreamType;$/;"	t	typeref:enum:__anon115
+StreamType_DVBT_DATAGRAM	type.h	/^    StreamType_DVBT_DATAGRAM = 3,   \/** DVB-T mode, store data in device buffer  *\/$/;"	e	enum:__anon115
+StreamType_DVBT_PARALLEL	type.h	/^    StreamType_DVBT_PARALLEL,       \/** DVB-T mode, output via paralle interface *\/$/;"	e	enum:__anon115
+StreamType_DVBT_SERIAL	type.h	/^    StreamType_DVBT_SERIAL,         \/** DVB-T mode, output via serial interface  *\/$/;"	e	enum:__anon115
+StreamType_NONE	type.h	/^    StreamType_NONE = 0,            \/** Invalid (Null) StreamType                *\/$/;"	e	enum:__anon115
+SubchannelModulation	type.h	/^} SubchannelModulation;$/;"	t	typeref:struct:__anon99
+SubchannelStatistic	type.h	/^} SubchannelStatistic;$/;"	t	typeref:struct:__anon128
+SubchannelType	type.h	/^} SubchannelType;$/;"	t	typeref:enum:__anon96
+SubchannelType_AUDIO	type.h	/^	SubchannelType_AUDIO = 0,$/;"	e	enum:__anon96
+SubchannelType_ENHANCEPACKET	type.h	/^	SubchannelType_ENHANCEPACKET = 4$/;"	e	enum:__anon96
+SubchannelType_PACKET	type.h	/^	SubchannelType_PACKET = 3,$/;"	e	enum:__anon96
+SubchannelType_VIDEO	type.h	/^	SubchannelType_VIDEO = 1,$/;"	e	enum:__anon96
+SupportHWInfo	api.h	/^    Byte	SupportHWInfo[32];  \/** Ex.," DVBT\/ISDBT"					*\/	$/;"	m	struct:__anon3
+SupportHWInfo	api.h	/^    Byte  SupportHWInfo[32];     \/\/ Ex.,"Jupiter DVBT\/DVBH".$/;"	m	struct:__anon4
+SupportHWInfo	iocontrol.h	/^    Byte                SupportHWInfo[32];  \/** Ex.,"Jupiter DVBT\/DVBH"			*\/$/;"	m	struct:__anon53
+SupportHWInfo	iocontrol.h	/^    Byte                SupportHWInfo[32];  \/** Ex.,"Jupiter DVBT\/DVBH"			*\/$/;"	m	struct:__anon54
+SystemIdentification	type.h	/^} SystemIdentification;$/;"	t	typeref:enum:__anon138
+TARGETS	Makefile	/^TARGETS = $(KD_NA)$/;"	m
+TMCC	type.h	/^} TMCC;$/;"	t	typeref:struct:__anon139
+TMCCINFO	type.h	/^} TMCCINFO, *pTMCCINFO;$/;"	t	typeref:struct:_TMCCINFO
+TPS	type.h	/^} TPS, *pTPS;$/;"	t	typeref:struct:_TPS
+TRANSMITTER_BLOCK_SIZE	api.h	47;"	d
+TXAddPidToISDBTPidFilterRequest	iocontrol.h	/^} TXAddPidToISDBTPidFilterRequest, *PTXAddPidToISDBTPidFilterRequest;$/;"	t	typeref:struct:__anon75
+TXGetTMCCInfoRequest	iocontrol.h	/^} TXGetTMCCInfoRequest, *PTXGetTMCCInfoRequest;$/;"	t	typeref:struct:__anon73
+TXGetTSinputBitRateRequest	iocontrol.h	/^} TXGetTSinputBitRateRequest, *PTXGetTSinputBitRateRequest;$/;"	t	typeref:struct:__anon74
+TXSetISDBTChannelModulationRequest	iocontrol.h	/^} TXSetISDBTChannelModulationRequest, *PTXSetISDBTChannelModulationRequest;$/;"	t	typeref:struct:__anon71
+TXSetTMCCInfoRequest	iocontrol.h	/^} TXSetTMCCInfoRequest, *PTXSetTMCCInfoRequest;$/;"	t	typeref:struct:__anon72
+TX_DATA_LEN	torf.c	121;"	d	file:
+TmccInfo	iocontrol.h	/^    TMCCINFO      		TmccInfo;$/;"	m	struct:__anon72
+TmccInfo	iocontrol.h	/^    TMCCINFO          	TmccInfo;$/;"	m	struct:__anon73
+TransmissionMode_2K	type.h	/^    TransmissionMode_2K = 0,    \/** OFDM frame consists of 2048 different carriers (2K FFT mode) *\/$/;"	e	enum:__anon142
+TransmissionMode_4K	type.h	/^    TransmissionMode_4K = 2     \/** OFDM frame consists of 4096 different carriers (4K FFT mode) *\/$/;"	e	enum:__anon142
+TransmissionMode_8K	type.h	/^    TransmissionMode_8K = 1,    \/** OFDM frame consists of 8192 different carriers (8K FFT mode) *\/$/;"	e	enum:__anon142
+TransmissionModes	type.h	/^} TransmissionModes;$/;"	t	typeref:enum:__anon142
+TransportLayer	type.h	/^} TransportLayer;$/;"	t	typeref:enum:__anon140
+True	type.h	/^    True = 1$/;"	e	enum:__anon87
+TunerDescription	type.h	/^} TunerDescription;$/;"	t	typeref:struct:__anon131
+TxAccessFwPSITableRequest	iocontrol.h	/^} TxAccessFwPSITableRequest, *PTxAccessFwPSITableRequest;$/;"	t	typeref:struct:__anon65
+TxAcquireChannelRequest	iocontrol.h	/^} TxAcquireChannelRequest, *PTxAcquireChannelRequest;$/;"	t	typeref:struct:__anon36
+TxAddPidAtRequest	iocontrol.h	/^} TxAddPidAtRequest, *PTxAddPidAtRequest;$/;"	t	typeref:struct:__anon44
+TxCmdRequest	iocontrol.h	/^} TxCmdRequest, *PTxCmdRequest;$/;"	t	typeref:struct:__anon59
+TxControlPidFilterRequest	iocontrol.h	/^} TxControlPidFilterRequest, *PTxControlPidFilterRequest;$/;"	t	typeref:struct:__anon50
+TxControlPowerSavingRequest	iocontrol.h	/^} TxControlPowerSavingRequest, *PTxControlPowerSavingRequest;$/;"	t	typeref:struct:__anon52
+TxDataOutputTest	torf.c	/^Dword TxDataOutputTest(ModulatorParam param, Byte DevNo,int port)$/;"	f
+TxGetChipTypeRequest	iocontrol.h	/^} TxGetChipTypeRequest, *PTxGetChipTypeRequest;$/;"	t	typeref:struct:__anon70
+TxGetDTVModeRequest	iocontrol.h	/^} TxGetDTVModeRequest, *PTxGetDTVModeRequest;$/;"	t	typeref:struct:__anon79
+TxGetDeviceTypeRequest	iocontrol.h	/^} TxGetDeviceTypeRequest, *PTxGetDeviceTypeRequest;$/;"	t	typeref:struct:__anon39
+TxGetFrequencyIndexRequest	iocontrol.h	/^} TxGetFrequencyIndexRequest, *PTxGetFrequencyIndexRequest;$/;"	t	typeref:struct:__anon78
+TxGetGainRangeRequest	iocontrol.h	/^} TxGetGainRangeRequest, *PTxGetGainRangeRequest;$/;"	t	typeref:struct:__anon60
+TxGetOutputGainRequest	iocontrol.h	/^} TxGetOutputGainRequest, *PTxGetOutputGainRequest;$/;"	t	typeref:struct:__anon63
+TxGetTPSRequest	iocontrol.h	/^} TxGetTPSRequest, *PTxGetTPSRequest;$/;"	t	typeref:struct:__anon61
+TxModDriverInfo	iocontrol.h	/^} TxModDriverInfo, *PTxModDriverInfo;$/;"	t	typeref:struct:__anon54
+TxModeRequest	iocontrol.h	/^} TxModeRequest, *PTxModeRequest;$/;"	t	typeref:struct:__anon37
+TxReadEepromValuesRequest	iocontrol.h	/^} TxReadEepromValuesRequest, *PTxReadEepromValuesRequest;$/;"	t	typeref:struct:__anon33
+TxReadRegistersRequest	iocontrol.h	/^} TxReadRegistersRequest, *PTxReadRegistersRequest;$/;"	t	typeref:struct:__anon32
+TxResetPidRequest	iocontrol.h	/^} TxResetPidRequest, *PTxResetPidRequest;$/;"	t	typeref:struct:__anon46
+TxSendHwPSITableRequest	iocontrol.h	/^} TxSendHwPSITableRequest, *PTxSendHwPSITableRequest;$/;"	t	typeref:struct:__anon64
+TxSetChannelTransmissionParameters	torf.c	/^static long TxSetChannelTransmissionParameters(ModulatorParam *param, Byte DevNo,int freq)$/;"	f	file:
+TxSetDCCalibrationValueRequest	iocontrol.h	/^} TxSetDCCalibrationValueRequest, *PTxSetDCCalibrationValueRequest;$/;"	t	typeref:struct:__anon69
+TxSetDCTableRequest	iocontrol.h	/^} TxSetDCTableRequest, *PTxSetDCTableRequest;$/;"	t	typeref:struct:__anon77
+TxSetDeviceTypeRequest	iocontrol.h	/^} TxSetDeviceTypeRequest, *PTxSetDeviceTypeRequest;$/;"	t	typeref:struct:__anon38
+TxSetFwPSITableTimerRequest	iocontrol.h	/^} TxSetFwPSITableTimerRequest, *PTxSetFwPSITableTimerRequest;$/;"	t	typeref:struct:__anon66
+TxSetGainRequest	iocontrol.h	/^} TxSetGainRequest, *PTxSetGainRequest;$/;"	t	typeref:struct:__anon40
+TxSetIQTableRequest	iocontrol.h	/^} TxSetIQTableRequest, *PTxSetIQTableRequest;$/;"	t	typeref:struct:__anon68
+TxSetLowBitRateTransferRequest	iocontrol.h	/^} TxSetLowBitRateTransferRequest, *PTxSetLowBitRateTransferRequest;$/;"	t	typeref:struct:__anon67
+TxSetModuleRequest	iocontrol.h	/^} TxSetModuleRequest, *PTxSetModuleRequest;$/;"	t	typeref:struct:__anon35
+TxSetPcrModeRequest	iocontrol.h	/^} TxSetPcrModeRequest, *PTxSetPcrModeRequest;$/;"	t	typeref:struct:__anon76
+TxSetTPSRequest	iocontrol.h	/^} TxSetTPSRequest, *PTxSetTPSRequest;$/;"	t	typeref:struct:__anon62
+TxStartTransferRequest	iocontrol.h	/^} TxStartTransferRequest, *PTxStartTransferRequest;$/;"	t	typeref:struct:__anon56
+TxStopTransferRequest	iocontrol.h	/^} TxStopTransferRequest, *PTxStopTransferRequest;$/;"	t	typeref:struct:__anon57
+TxTransferTimeDelay	torf.c	/^uint32_t TxTransferTimeDelay(struct timeval start, struct timeval end)$/;"	f
+TxWriteEepromValuesRequest	iocontrol.h	/^} TxWriteEepromValuesRequest, *PTxWriteEepromValuesRequest;$/;"	t	typeref:struct:__anon30
+TxWriteRegistersRequest	iocontrol.h	/^} TxWriteRegistersRequest, *PTxWriteRegistersRequest;$/;"	t	typeref:struct:__anon29
+ULONGLONG	type.h	/^typedef unsigned long long ULONGLONG;$/;"	t
+UsbMode	api.h	/^	Word UsbMode;$/;"	m	struct:__anon2
+ValueSet	type.h	/^} ValueSet;$/;"	t	typeref:struct:__anon110
+VendorID	api.h	/^	Word VendorID;$/;"	m	struct:__anon2
+Word	type.h	/^typedef unsigned short Word;$/;"	t
+WriteEepromValues	type.h	/^typedef Dword (*WriteEepromValues) ($/;"	t
+WriteRegisters	type.h	/^typedef Dword (*WriteRegisters) ($/;"	t
+WriteRegistersRequest	iocontrol.h	/^} WriteRegistersRequest, *PWriteRegistersRequest;$/;"	t	typeref:struct:__anon28
+WriteScatterRegisters	type.h	/^typedef Dword (*WriteScatterRegisters) ($/;"	t
+WriteTunerRegisters	type.h	/^typedef Dword (*WriteTunerRegisters) ($/;"	t
+_ERROR_H_	error.h	2;"	d
+_GNU_SOURCE	api.h	18;"	d
+_MODULATION_PARAM	api.h	/^typedef struct _MODULATION_PARAM{$/;"	s
+_MOD_DTVAPI_	api.h	16;"	d
+_TMCCINFO	type.h	/^typedef struct _TMCCINFO{$/;"	s
+_TPS	type.h	/^typedef struct _TPS{$/;"	s
+__CRC_H__	crc.h	2;"	d
+__DTVAPI_VERSION__	api.h	45;"	d
+__INTTYPE_H__	inttype.h	2;"	d
+__IOCONTROL_H__	iocontrol.h	14;"	d
+__TYPE_H__	type.h	2;"	d
+abortCount	api.h	/^    Word abortCount;            \/\/ Number of abort RSD packet.$/;"	m	struct:__anon12
+abortCount	inttype.h	/^    Word abortCount;$/;"	m	struct:__anon26
+abortCount	type.h	/^	Word abortCount;$/;"	m	struct:__anon127
+abortCount	type.h	/^	Word abortCount;$/;"	m	struct:__anon128
+acquireChannel	type.h	/^	AcquireChannel		acquireChannel;$/;"	m	struct:__anon132
+activeNext	type.h	/^	Bool activeNext;$/;"	m	struct:__anon135
+activeNext	type.h	/^	Bool activeNext;$/;"	m	struct:__anon136
+actualInfo	iocontrol.h	/^	Bool 		   actualInfo;    $/;"	m	struct:__anon62
+actualInfo	iocontrol.h	/^    Bool			    actualInfo;$/;"	m	struct:__anon72
+adcFrequency	type.h	/^	Dword adcFrequency;$/;"	m	struct:__anon133
+adcFrequency	type.h	/^	Dword adcFrequency;$/;"	m	struct:__anon134
+adcFrequency	type.h	/^	Dword adcFrequency;$/;"	m	struct:__anon135
+adcFrequency	type.h	/^	Dword adcFrequency;$/;"	m	struct:__anon136
+adcFrequency	type.h	/^    Dword adcFrequency;         \/** The frequency of ADC.     *\/$/;"	m	struct:__anon117
+addr_len	torf.c	/^socklen_t addr_len;$/;"	v
+address	api.h	/^	Byte address[16];            \/\/ The byte array to store IP address.$/;"	m	struct:__anon7
+address	type.h	/^	Byte address[16];$/;"	m	struct:__anon101
+address	type.h	/^	Dword address;$/;"	m	struct:__anon111
+address	type.h	/^    Dword address;      \/** The address of target register *\/$/;"	m	struct:__anon110
+adjustTuner	type.h	/^	AdjustTuner		adjustTuner;$/;"	m	struct:__anon131
+architecture	type.h	/^	Architecture architecture;$/;"	m	struct:__anon133
+architecture	type.h	/^	Architecture architecture;$/;"	m	struct:__anon134
+architecture	type.h	/^	Architecture architecture;$/;"	m	struct:__anon135
+architecture	type.h	/^	Architecture architecture;$/;"	m	struct:__anon136
+bandwidth	api.h	/^	Word bandwidth;              \/\/ The operating channel bandwith of this platform.$/;"	m	struct:__anon8
+bandwidth	api.h	/^    DTVBandwidth bandwidth;$/;"	m	struct:__anon19
+bandwidth	iocontrol.h	/^	Word           bandwidth;    $/;"	m	struct:__anon60
+bandwidth	iocontrol.h	/^    Word				bandwidth;$/;"	m	struct:__anon34
+bandwidth	iocontrol.h	/^    Word				bandwidth;$/;"	m	struct:__anon36
+bandwidth	type.h	/^	Word bandwidth;$/;"	m	struct:__anon102
+bandwidth	type.h	/^	Word bandwidth;$/;"	m	struct:__anon133
+bandwidth	type.h	/^	Word bandwidth;$/;"	m	struct:__anon134
+bandwidth	type.h	/^	Word bandwidth;$/;"	m	struct:__anon135
+bandwidth	type.h	/^	Word bandwidth;$/;"	m	struct:__anon136
+bandwidth	type.h	/^    Bandwidth	bandwidth;$/;"	m	struct:__anon143
+bandwidth	type.h	/^    Bandwidth bandwidth;$/;"	m	struct:__anon98
+bitRate	type.h	/^	Word bitRate;$/;"	m	struct:__anon99
+booted	type.h	/^	Bool booted;$/;"	m	struct:__anon133
+booted	type.h	/^	Bool booted;$/;"	m	struct:__anon134
+booted	type.h	/^	Bool booted;$/;"	m	struct:__anon135
+booted	type.h	/^	Bool booted;$/;"	m	struct:__anon136
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon28
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon29
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon30
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon31
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon32
+buffer	iocontrol.h	/^    Byte			buffer[256];$/;"	m	struct:__anon33
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon28
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon29
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon30
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon31
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon32
+bufferLength	iocontrol.h	/^    Byte			bufferLength;$/;"	m	struct:__anon33
+burstSize	type.h	/^	BurstSize burstSize;$/;"	m	struct:__anon134
+burstSize	type.h	/^	BurstSize burstSize;$/;"	m	struct:__anon135
+burstSize	type.h	/^	BurstSize burstSize;$/;"	m	struct:__anon136
+busDescription	type.h	/^	BusDescription busDescription;$/;"	m	struct:__anon133
+busDescription	type.h	/^	BusDescription busDescription;$/;"	m	struct:__anon134
+busDescription	type.h	/^	BusDescription busDescription;$/;"	m	struct:__anon135
+busDescription	type.h	/^	BusDescription busDescription;$/;"	m	struct:__anon136
+busId	type.h	/^	Word busId;$/;"	m	struct:__anon133
+busId	type.h	/^	Word busId;$/;"	m	struct:__anon134
+busId	type.h	/^	Word busId;$/;"	m	struct:__anon135
+busId	type.h	/^	Word busId;$/;"	m	struct:__anon136
+bw_list	torf.c	/^static const Param bw_list [] = {$/;"	v	file:
+c1DefaultValue	type.h	/^    Word	c1DefaultValue;$/;"	m	struct:__anon84
+c2DefaultValue	type.h	/^	Word	c2DefaultValue;$/;"	m	struct:__anon84
+c3DefaultValue	type.h	/^	Word	c3DefaultValue;$/;"	m	struct:__anon84
+cache	api.h	/^	Bool cache;					\/\/ True: MPE data will be cached in device's buffer. Fasle: MPE will be transfer to host.$/;"	m	struct:__anon11
+cache	api.h	/^	Bool cache;                  \/\/ True: IP datagram will be cached in device's buffer. Fasle: IP datagram will be transfer to host.$/;"	m	struct:__anon7
+cache	type.h	/^	Bool cache;$/;"	m	struct:__anon101
+cache	type.h	/^    Bool cache;                 \/** True: MPE data will be cached in device's buffer. Fasle: MPE will be transfer to host.        *\/$/;"	m	struct:__anon109
+cellid	type.h	/^    Word cellid;$/;"	m	struct:_TPS
+channelStatistic	type.h	/^	ChannelStatistic channelStatistic[2];$/;"	m	struct:__anon133
+channelStatistic	type.h	/^	ChannelStatistic channelStatistic[2];$/;"	m	struct:__anon134
+channelStatistic	type.h	/^	ChannelStatistic channelStatistic[2];$/;"	m	struct:__anon135
+channelStatistic	type.h	/^	ChannelStatistic channelStatistic[2];$/;"	m	struct:__anon136
+channelStatisticAddr	iocontrol.h	/^    __u32				channelStatisticAddr;		\/\/ ChannelStatistic*$/;"	m	struct:__anon47
+charFlag	api.h	/^    Word charFlag;$/;"	m	struct:__anon20
+charFlag	type.h	/^	Word charFlag;$/;"	m	struct:__anon103
+charSet	api.h	/^    Byte charSet;$/;"	m	struct:__anon20
+charSet	type.h	/^	Byte charSet;$/;"	m	struct:__anon103
+chip	iocontrol.h	/^	Byte				chip;$/;"	m	struct:__anon43
+chip	iocontrol.h	/^	Byte				chip;$/;"	m	struct:__anon44
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon45
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon46
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon55
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon56
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon57
+chip	iocontrol.h	/^	Byte			chip;$/;"	m	struct:__anon58
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon34
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon35
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon36
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon41
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon47
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon48
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon51
+chip	iocontrol.h	/^    Byte				chip;$/;"	m	struct:__anon52
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon28
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon29
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon30
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon31
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon32
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon33
+chip	iocontrol.h	/^    Byte			chip;$/;"	m	struct:__anon49
+chipNumber	type.h	/^	Byte chipNumber;$/;"	m	struct:__anon133
+chipNumber	type.h	/^	Byte chipNumber;$/;"	m	struct:__anon134
+chipNumber	type.h	/^	Byte chipNumber;$/;"	m	struct:__anon135
+chipNumber	type.h	/^	Byte chipNumber;$/;"	m	struct:__anon136
+chipType	iocontrol.h	/^    Word			chipType;	$/;"	m	struct:__anon70
+clearInterrupt	type.h	/^	ClearInterrupt		clearInterrupt;$/;"	m	struct:__anon132
+cliaddr	torf.c	/^struct sockaddr_in servaddr,cliaddr;$/;"	v	typeref:struct:
+closeTuner	type.h	/^	CloseTuner		closeTuner;$/;"	m	struct:__anon131
+cmdAddr	iocontrol.h	/^    __u32			cmdAddr;		\/\/ Byte*$/;"	m	struct:__anon59
+codeRate	type.h	/^	CodeRate		codeRate;		      \/** FEC coding ratio of high-priority stream                 *\/$/;"	m	struct:__anon139
+componentId	api.h	/^    Word componentId;				\/\/ Stream audio\/data is subchid, packet mode is SCId.$/;"	m	struct:__anon23
+componentId	type.h	/^	Word componentId;			\/\/ Stream audio\/data is subchid, packet mode is SCId$/;"	m	struct:__anon106
+componentIdService	api.h	/^    Byte componentIdService;		\/\/ Component ID within Service.$/;"	m	struct:__anon23
+componentIdService	type.h	/^	Byte componentIdService;	\/\/ Component ID within Service$/;"	m	struct:__anon106
+componentLabel	api.h	/^    DTVLabel componentLabel;		\/\/ The label of component. See the defination of Label.$/;"	m	struct:__anon23
+componentLabel	type.h	/^	Label componentLabel;$/;"	m	struct:__anon106
+componentType	api.h	/^    Byte componentType;			\/\/ Component Type (A\/D).$/;"	m	struct:__anon23
+componentType	type.h	/^	Byte componentType;			\/\/ Component Type (A\/D)$/;"	m	struct:__anon106
+conditionalAccess	api.h	/^    Byte conditionalAccess;		\/\/ Conditional Access flag.$/;"	m	struct:__anon23
+conditionalAccess	type.h	/^	Byte conditionalAccess;		\/\/ Conditional Access flag$/;"	m	struct:__anon106
+conditionalAccess	type.h	/^	Byte conditionalAccess;$/;"	m	struct:__anon99
+configuration	type.h	/^	Byte configuration;$/;"	m	struct:__anon112
+constellation	api.h	/^    Byte constellation; $/;"	m	struct:_MODULATION_PARAM
+constellation	api.h	/^    DTVConstellation constellation;			\/\/ Constellation scheme (FFT mode) in use.$/;"	m	struct:__anon19
+constellation	iocontrol.h	/^	Byte				constellation;$/;"	m	struct:__anon35
+constellation	type.h	/^	Constellation	constellation;        \/** Constellation scheme (FFT mode) in use                   *\/$/;"	m	struct:__anon139
+constellation	type.h	/^    Byte constellation; $/;"	m	struct:_TPS
+constellation_list	torf.c	/^static const Param constellation_list [] = {$/;"	v	file:
+control	iocontrol.h	/^	Byte			control;$/;"	m	struct:__anon49
+control	iocontrol.h	/^    Byte				control;$/;"	m	struct:__anon51
+control	iocontrol.h	/^    Byte				control;$/;"	m	struct:__anon52
+control	iocontrol.h	/^    Byte			control;$/;"	m	struct:__anon50
+count	torf.c	/^	uint32_t count;$/;"	m	struct:__anon82	file:
+crystalFrequency	type.h	/^	Dword crystalFrequency;$/;"	m	struct:__anon133
+crystalFrequency	type.h	/^	Dword crystalFrequency;$/;"	m	struct:__anon134
+crystalFrequency	type.h	/^	Dword crystalFrequency;$/;"	m	struct:__anon135
+crystalFrequency	type.h	/^	Dword crystalFrequency;$/;"	m	struct:__anon136
+crystalFrequency	type.h	/^    Dword crystalFrequency;     \/** The frequency of crystal. *\/$/;"	m	struct:__anon117
+dAmp	type.h	/^    int  dAmp;			  \/**  *\/$/;"	m	struct:__anon83
+dPhi	type.h	/^	int  dPhi;	$/;"	m	struct:__anon83
+dataLength	type.h	/^	Word dataLength[4];$/;"	m	struct:__anon136
+dataReady	type.h	/^	Bool dataReady;$/;"	m	struct:__anon134
+dataReady	type.h	/^	Bool dataReady;$/;"	m	struct:__anon135
+dataReady	type.h	/^	Bool dataReady;$/;"	m	struct:__anon136
+dc_i	iocontrol.h	/^    int					dc_i;$/;"	m	struct:__anon69
+dc_q	iocontrol.h	/^	int					dc_q;$/;"	m	struct:__anon69
+doPuUpVolt	inttype.h	/^    double doPuUpVolt;$/;"	m	struct:__anon27
+doPuUpVolt	type.h	/^    double doPuUpVolt;$/;"	m	struct:__anon129
+doSetVolt	inttype.h	/^    double doSetVolt;$/;"	m	struct:__anon27
+doSetVolt	type.h	/^    double doSetVolt;$/;"	m	struct:__anon129
+driver	type.h	/^	Handle driver;$/;"	m	struct:__anon125
+driver	type.h	/^	Handle driver;$/;"	m	struct:__anon133
+driver	type.h	/^	Handle driver;$/;"	m	struct:__anon134
+driver	type.h	/^	Handle driver;$/;"	m	struct:__anon135
+driver	type.h	/^	Handle driver;$/;"	m	struct:__anon136
+dup_flag	torf.c	/^	uint8_t  dup_flag;$/;"	m	struct:__anon82	file:
+duration	api.h	/^	Byte duration;				\/\/ The maximum burst duration. It can be specify to 0xFF if user don't know the exact value.$/;"	m	struct:__anon11
+duration	type.h	/^    Byte duration;              \/** The maximum burst duration. It can be specify to 0xFF if user don't know the exact value.     *\/$/;"	m	struct:__anon109
+dvbhStandardDescription	type.h	/^	StandardDescription dvbhStandardDescription;$/;"	m	struct:__anon135
+dvbhStandardDescription	type.h	/^	StandardDescription dvbhStandardDescription;$/;"	m	struct:__anon136
+dvbtStandardDescription	type.h	/^	StandardDescription dvbtStandardDescription;$/;"	m	struct:__anon134
+dvbtStandardDescription	type.h	/^	StandardDescription dvbtStandardDescription;$/;"	m	struct:__anon135
+dvbtStandardDescription	type.h	/^	StandardDescription dvbtStandardDescription;$/;"	m	struct:__anon136
+enable	iocontrol.h	/^	Byte			enable;$/;"	m	struct:__anon50
+ensembleId	api.h	/^    Word ensembleId;$/;"	m	struct:__anon21
+ensembleId	type.h	/^	Word ensembleId;$/;"	m	struct:__anon104
+ensembleLabel	api.h	/^    DTVLabel ensembleLabel;$/;"	m	struct:__anon21
+ensembleLabel	type.h	/^	Label ensembleLabel;$/;"	m	struct:__anon104
+enterStreamType	type.h	/^	EnterStreamType		enterStreamType;$/;"	m	struct:__anon132
+error	api.h	/^    Dword error;$/;"	m	struct:__anon4
+error	iocontrol.h	/^    Dword				error;$/;"	m	struct:__anon41
+error	iocontrol.h	/^    Dword				error;$/;"	m	struct:__anon42
+error	iocontrol.h	/^    Dword			error;$/;"	m	struct:__anon55
+error	iocontrol.h	/^    Dword			error;$/;"	m	struct:__anon56
+error	iocontrol.h	/^    Dword			error;$/;"	m	struct:__anon57
+error	iocontrol.h	/^    Dword			error;$/;"	m	struct:__anon58
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon34
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon35
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon36
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon37
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon38
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon39
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon43
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon44
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon47
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon48
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon51
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon52
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon67
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon68
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon69
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon71
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon72
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon73
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon74
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon75
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon76
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon77
+error	iocontrol.h	/^    __u32				error;$/;"	m	struct:__anon78
+error	iocontrol.h	/^    __u32			error;    $/;"	m	struct:__anon59
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon28
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon29
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon30
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon31
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon32
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon33
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon40
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon45
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon46
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon49
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon50
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon60
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon61
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon66
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon70
+error	iocontrol.h	/^    __u32			error;$/;"	m	struct:__anon79
+error	iocontrol.h	/^    __u32		   error;$/;"	m	struct:__anon62
+error	iocontrol.h	/^    __u32		   error;$/;"	m	struct:__anon63
+error	iocontrol.h	/^    __u32		   error;$/;"	m	struct:__anon64
+error	iocontrol.h	/^    __u32		   error;$/;"	m	struct:__anon65
+error	iocontrol.h	/^    __u32               error;$/;"	m	struct:__anon53
+error	iocontrol.h	/^    __u32               error;$/;"	m	struct:__anon54
+errorCount	inttype.h	/^    Dword errorCount;$/;"	m	struct:__anon25
+errorCount	type.h	/^	Dword errorCount;$/;"	m	struct:__anon118
+errorCount	type.h	/^	Dword errorCount;$/;"	m	struct:__anon119
+errorRate	inttype.h	/^    double errorRate;$/;"	m	struct:__anon25
+errorRate	type.h	/^	double errorRate;$/;"	m	struct:__anon118
+exShiftIndex	type.h	/^	Byte exShiftIndex;$/;"	m	struct:__anon133
+exShiftIndex	type.h	/^	Byte exShiftIndex;$/;"	m	struct:__anon134
+exShiftIndex	type.h	/^	Byte exShiftIndex;$/;"	m	struct:__anon135
+exShiftIndex	type.h	/^	Byte exShiftIndex;$/;"	m	struct:__anon136
+fcw	type.h	/^	Dword fcw;$/;"	m	struct:__anon133
+fcw	type.h	/^	Dword fcw;$/;"	m	struct:__anon134
+fcw	type.h	/^	Dword fcw;$/;"	m	struct:__anon135
+fcw	type.h	/^	Dword fcw;$/;"	m	struct:__anon136
+fec_list	torf.c	/^static const Param fec_list [] = {$/;"	v	file:
+fft	type.h	/^    Fft fft;$/;"	m	struct:__anon98
+ficCount	type.h	/^	Word ficCount;				\/\/ Total FIC error count$/;"	m	struct:__anon128
+ficErrorCount	type.h	/^	Word ficErrorCount;			\/\/ Total FIC count$/;"	m	struct:__anon128
+ficLength	type.h	/^	Word ficLength[2];$/;"	m	struct:__anon136
+ficReady	type.h	/^	Bool ficReady;$/;"	m	struct:__anon136
+figReady	type.h	/^	Bool figReady;$/;"	m	struct:__anon136
+filter	type.h	/^   filter = 0,$/;"	e	enum:__anon140
+firmwareCodeLength	type.h	/^	Dword firmwareCodeLength;$/;"	m	struct:__anon133
+firmwareCodeLength	type.h	/^	Dword firmwareCodeLength;$/;"	m	struct:__anon134
+firmwareCodeLength	type.h	/^	Dword firmwareCodeLength;$/;"	m	struct:__anon135
+firmwareCodeLength	type.h	/^	Dword firmwareCodeLength;$/;"	m	struct:__anon136
+firmwareCodes	type.h	/^	Byte* firmwareCodes;$/;"	m	struct:__anon133
+firmwareCodes	type.h	/^	Byte* firmwareCodes;$/;"	m	struct:__anon134
+firmwareCodes	type.h	/^	Byte* firmwareCodes;$/;"	m	struct:__anon135
+firmwareCodes	type.h	/^	Byte* firmwareCodes;$/;"	m	struct:__anon136
+firmwarePartitionLength	type.h	/^	Dword firmwarePartitionLength;$/;"	m	struct:__anon133
+firmwarePartitionLength	type.h	/^	Dword firmwarePartitionLength;$/;"	m	struct:__anon134
+firmwarePartitionLength	type.h	/^	Dword firmwarePartitionLength;$/;"	m	struct:__anon135
+firmwarePartitionLength	type.h	/^	Dword firmwarePartitionLength;$/;"	m	struct:__anon136
+firmwarePartitions	type.h	/^	Byte* firmwarePartitions;$/;"	m	struct:__anon133
+firmwarePartitions	type.h	/^	Byte* firmwarePartitions;$/;"	m	struct:__anon134
+firmwarePartitions	type.h	/^	Byte* firmwarePartitions;$/;"	m	struct:__anon135
+firmwarePartitions	type.h	/^	Byte* firmwarePartitions;$/;"	m	struct:__anon136
+firmwareSegmentLength	type.h	/^	Dword firmwareSegmentLength;$/;"	m	struct:__anon133
+firmwareSegmentLength	type.h	/^	Dword firmwareSegmentLength;$/;"	m	struct:__anon134
+firmwareSegmentLength	type.h	/^	Dword firmwareSegmentLength;$/;"	m	struct:__anon135
+firmwareSegmentLength	type.h	/^	Dword firmwareSegmentLength;$/;"	m	struct:__anon136
+firmwareSegments	type.h	/^	Segment* firmwareSegments;$/;"	m	struct:__anon133
+firmwareSegments	type.h	/^	Segment* firmwareSegments;$/;"	m	struct:__anon134
+firmwareSegments	type.h	/^	Segment* firmwareSegments;$/;"	m	struct:__anon135
+firmwareSegments	type.h	/^	Segment* firmwareSegments;$/;"	m	struct:__anon136
+fmStandardDescription	type.h	/^	StandardDescription fmStandardDescription;$/;"	m	struct:__anon136
+frameErrorCount	api.h	/^    Byte frameErrorCount;       \/\/ Frame Error Ratio (error ratio before MPE-FEC) = frameErrorRate \/ 128.$/;"	m	struct:__anon12
+frameErrorRatio	type.h	/^	Byte frameErrorRatio;		\/\/ Frame Error Ratio (error ratio before MPE-FEC) = frameErrorRate \/ 128$/;"	m	struct:__anon126
+frameRow	api.h	/^	DTVFrameRow frameRow;        \/\/ The frame row of MPE-FEC. It means the exact number of rows for each column in MPE-FEC frame.$/;"	m	struct:__anon11
+frameRow	type.h	/^    FrameRow frameRow;          \/** The frame row of MPE-FEC. It means the exact number of rows for each column in MPE-FEC frame. *\/$/;"	m	struct:__anon109
+frequency	api.h	/^	Dword frequency;             \/\/ The operating channel frequency of this platform.$/;"	m	struct:__anon8
+frequency	api.h	/^    Dword frequency; 							\/\/ Channel frequency in KHz.$/;"	m	struct:__anon19
+frequency	api.h	/^    Dword frequency;$/;"	m	struct:__anon22
+frequency	iocontrol.h	/^	__u32          frequency;$/;"	m	struct:__anon60
+frequency	iocontrol.h	/^    __u32				frequency;$/;"	m	struct:__anon34
+frequency	iocontrol.h	/^    __u32				frequency;$/;"	m	struct:__anon36
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon102
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon105
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon133
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon134
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon135
+frequency	type.h	/^	Dword frequency;$/;"	m	struct:__anon136
+frequency	type.h	/^    Dword		frequency;                \/** Channel frequency in KHz.                                *\/$/;"	m	struct:__anon143
+frequency	type.h	/^    Dword frequency;      \/**  *\/$/;"	m	struct:__anon83
+frequency	type.h	/^    Dword frequency;$/;"	m	struct:__anon98
+frequencyindex	iocontrol.h	/^    Byte				frequencyindex;$/;"	m	struct:__anon78
+gRateControl	torf.c	/^int gRateControl = 0; $/;"	v
+gTransferInterval	torf.c	/^uint32_t gTransferInterval = 0;$/;"	v
+gTransferRate	torf.c	/^int gTransferRate = 0;$/;"	v
+g_ChannelCapacity	torf.c	/^Dword g_ChannelCapacity = 0;$/;"	v
+g_ChannelModulation_Setting	torf.c	/^MODULATION_PARAM g_ChannelModulation_Setting;$/;"	v
+g_ITEAPI_GetFrequencyIndex	api.c	/^Dword g_ITEAPI_GetFrequencyIndex($/;"	f
+g_ITEAPI_StartTransfer	api.c	/^Dword g_ITEAPI_StartTransfer($/;"	f
+g_ITEAPI_StartTransfer_CMD	api.c	/^Dword g_ITEAPI_StartTransfer_CMD($/;"	f
+g_ITEAPI_StopTransfer	api.c	/^Dword g_ITEAPI_StopTransfer($/;"	f
+g_ITEAPI_StopTransfer_CMD	api.c	/^Dword g_ITEAPI_StopTransfer_CMD($/;"	f
+g_ITEAPI_TxAddPID	api.c	/^Dword g_ITEAPI_TxAddPID($/;"	f
+g_ITEAPI_TxAddPIDEx	api.c	/^Dword g_ITEAPI_TxAddPIDEx($/;"	f
+g_ITEAPI_TxAddPidToISDBTPidFilter	api.c	/^Dword g_ITEAPI_TxAddPidToISDBTPidFilter($/;"	f
+g_ITEAPI_TxAdjustOutputGain	api.c	/^Dword g_ITEAPI_TxAdjustOutputGain($/;"	f
+g_ITEAPI_TxControlPidFilter	api.c	/^Dword g_ITEAPI_TxControlPidFilter($/;"	f
+g_ITEAPI_TxDeviceExit	api.c	/^Dword g_ITEAPI_TxDeviceExit($/;"	f
+g_ITEAPI_TxDeviceInit	api.c	/^Dword g_ITEAPI_TxDeviceInit($/;"	f
+g_ITEAPI_TxDeviceOpen	api.c	/^Dword g_ITEAPI_TxDeviceOpen($/;"	f
+g_ITEAPI_TxGetChipType	api.c	/^Dword g_ITEAPI_TxGetChipType($/;"	f
+g_ITEAPI_TxGetDTVMode	api.c	/^Dword g_ITEAPI_TxGetDTVMode($/;"	f
+g_ITEAPI_TxGetDeviceType	api.c	/^Dword g_ITEAPI_TxGetDeviceType($/;"	f
+g_ITEAPI_TxGetDrvInfo	api.c	/^Dword g_ITEAPI_TxGetDrvInfo($/;"	f
+g_ITEAPI_TxGetGainRange	api.c	/^Dword g_ITEAPI_TxGetGainRange($/;"	f
+g_ITEAPI_TxGetNumOfDevice	api.c	/^Dword g_ITEAPI_TxGetNumOfDevice($/;"	f
+g_ITEAPI_TxGetOutputGain	api.c	/^Dword g_ITEAPI_TxGetOutputGain($/;"	f
+g_ITEAPI_TxGetTMCCInfo	api.c	/^Dword g_ITEAPI_TxGetTMCCInfo($/;"	f
+g_ITEAPI_TxGetTPS	api.c	/^Dword g_ITEAPI_TxGetTPS($/;"	f
+g_ITEAPI_TxGetTSinputBitRate	api.c	/^Dword g_ITEAPI_TxGetTSinputBitRate($/;"	f
+g_ITEAPI_TxPowerCtl	api.c	/^Dword g_ITEAPI_TxPowerCtl($/;"	f
+g_ITEAPI_TxReadEEPROM	api.c	/^Dword g_ITEAPI_TxReadEEPROM($/;"	f
+g_ITEAPI_TxReadRegLINK	api.c	/^Dword g_ITEAPI_TxReadRegLINK($/;"	f
+g_ITEAPI_TxReadRegOFDM	api.c	/^Dword g_ITEAPI_TxReadRegOFDM($/;"	f
+g_ITEAPI_TxResetPidFilter	api.c	/^Dword g_ITEAPI_TxResetPidFilter($/;"	f
+g_ITEAPI_TxSendCustomPacketOnce	api.c	/^Dword g_ITEAPI_TxSendCustomPacketOnce($/;"	f
+g_ITEAPI_TxSendTSData	api.c	/^Dword g_ITEAPI_TxSendTSData($/;"	f
+g_ITEAPI_TxSetChannel	api.c	/^Dword g_ITEAPI_TxSetChannel(	$/;"	f
+g_ITEAPI_TxSetChannelModulation	api.c	/^Dword g_ITEAPI_TxSetChannelModulation(	$/;"	f
+g_ITEAPI_TxSetDCCalibrationValue	api.c	/^Dword g_ITEAPI_TxSetDCCalibrationValue($/;"	f
+g_ITEAPI_TxSetDCTable	api.c	/^Dword g_ITEAPI_TxSetDCTable($/;"	f
+g_ITEAPI_TxSetDeviceType	api.c	/^Dword g_ITEAPI_TxSetDeviceType($/;"	f
+g_ITEAPI_TxSetIQTable	api.c	/^Dword g_ITEAPI_TxSetIQTable($/;"	f
+g_ITEAPI_TxSetISDBTChannelModulation	api.c	/^Dword g_ITEAPI_TxSetISDBTChannelModulation($/;"	f
+g_ITEAPI_TxSetModeEnable	api.c	/^Dword g_ITEAPI_TxSetModeEnable($/;"	f
+g_ITEAPI_TxSetPCRMode	api.c	/^Dword g_ITEAPI_TxSetPCRMode($/;"	f
+g_ITEAPI_TxSetPeridicCustomPacket	api.c	/^Dword g_ITEAPI_TxSetPeridicCustomPacket($/;"	f
+g_ITEAPI_TxSetPeridicCustomPacketTimer	api.c	/^Dword g_ITEAPI_TxSetPeridicCustomPacketTimer($/;"	f
+g_ITEAPI_TxSetTMCCInfo	api.c	/^Dword g_ITEAPI_TxSetTMCCInfo($/;"	f
+g_ITEAPI_TxSetTPS	api.c	/^Dword g_ITEAPI_TxSetTPS($/;"	f
+g_ITEAPI_TxWriteCmd	api.c	/^Dword g_ITEAPI_TxWriteCmd($/;"	f
+g_ITEAPI_TxWriteEEPROM	api.c	/^Dword g_ITEAPI_TxWriteEEPROM($/;"	f
+g_ITEAPI_TxWriteLowBitRateData	api.c	/^Dword g_ITEAPI_TxWriteLowBitRateData($/;"	f
+g_ITEAPI_TxWriteRegLINK	api.c	/^Dword g_ITEAPI_TxWriteRegLINK($/;"	f
+g_ITEAPI_TxWriteRegOFDM	api.c	/^Dword g_ITEAPI_TxWriteRegOFDM($/;"	f
+g_hDriver	api.c	/^int g_hDriver[16][2] = {{0}};           \/\/ Support number of 16 devices.$/;"	v
+g_hPrimaDriverHandle	api.c	/^int g_hPrimaDriverHandle = 0;$/;"	v
+g_hSPIDriverHandle	api.c	/^int g_hSPIDriverHandle = 0;$/;"	v
+gain	iocontrol.h	/^	int			   gain;	 $/;"	m	struct:__anon63
+getData	type.h	/^	GetData				getData;$/;"	m	struct:__anon132
+getDataLength	type.h	/^	GetDataLength		getDataLength;$/;"	m	struct:__anon132
+getDatagram	type.h	/^	GetDatagram			getDatagram;$/;"	m	struct:__anon132
+getInterrupts	type.h	/^	GetInterrupts		getInterrupts;$/;"	m	struct:__anon132
+getStatistic	type.h	/^	GetStatistic		getStatistic;$/;"	m	struct:__anon132
+group1Ready	type.h	/^	Bool group1Ready;$/;"	m	struct:__anon136
+group2Ready	type.h	/^	Bool group2Ready;$/;"	m	struct:__anon136
+group3Ready	type.h	/^	Bool group3Ready;$/;"	m	struct:__anon136
+guard_list	torf.c	/^static const Param guard_list [] = {$/;"	v	file:
+hasInformation	api.h	/^	Bool hasInformation;         \/\/ The flag to indicate if there exist extra information.$/;"	m	struct:__anon8
+hasInformation	type.h	/^	Bool hasInformation;$/;"	m	struct:__anon102
+hierarchy	api.h	/^    DTVHierarchy hierarchy;                  \/\/ Hierarchy levels of OFDM signal.$/;"	m	struct:__anon19
+hierarchy	type.h	/^    Hierarchy hierarchy;$/;"	m	struct:__anon98
+hierarchy_list	torf.c	/^static const Param hierarchy_list [] = {$/;"	v	file:
+highCodeRate	api.h	/^    Byte highCodeRate;$/;"	m	struct:_MODULATION_PARAM
+highCodeRate	api.h	/^    DTVCodeRate highCodeRate;                \/\/ FEC coding ratio of high-priority stream.$/;"	m	struct:__anon19
+highCodeRate	iocontrol.h	/^	Byte				highCodeRate;$/;"	m	struct:__anon35
+highCodeRate	type.h	/^    Byte highCodeRate;$/;"	m	struct:_TPS
+highCodeRate	type.h	/^    CodeRate highCodeRate;$/;"	m	struct:__anon98
+hostInterface	type.h	/^	Byte hostInterface[2];$/;"	m	struct:__anon133
+hostInterface	type.h	/^	Byte hostInterface[2];$/;"	m	struct:__anon134
+hostInterface	type.h	/^	Byte hostInterface[2];$/;"	m	struct:__anon135
+hostInterface	type.h	/^	Byte hostInterface[2];$/;"	m	struct:__anon136
+hours	type.h	/^	Byte hours;$/;"	m	struct:__anon112
+i	type.h	/^    int  i;			  \/**  *\/$/;"	m	struct:__anon85
+ifFrequency	type.h	/^    Dword			ifFrequency;$/;"	m	struct:__anon131
+index	iocontrol.h	/^	Byte				index;$/;"	m	struct:__anon43
+index	iocontrol.h	/^	Byte				index;$/;"	m	struct:__anon44
+index	iocontrol.h	/^    Byte            	index;$/;"	m	struct:__anon75
+information	api.h	/^	Byte information[4096];      \/\/ The extra information about this platform.$/;"	m	struct:__anon8
+information	type.h	/^	Byte* information;$/;"	m	struct:__anon102
+informationLength	api.h	/^	Word informationLength;      \/\/ The length of information.$/;"	m	struct:__anon8
+informationLength	type.h	/^	Word informationLength;$/;"	m	struct:__anon102
+init_udp	torf.c	/^void init_udp(int port)$/;"	f
+initialized	type.h	/^	Bool initialized;$/;"	m	struct:__anon133
+initialized	type.h	/^	Bool initialized;$/;"	m	struct:__anon134
+initialized	type.h	/^	Bool initialized;$/;"	m	struct:__anon135
+initialized	type.h	/^	Bool initialized;$/;"	m	struct:__anon136
+interval	api.h	/^    Byte interval;   $/;"	m	struct:_MODULATION_PARAM
+interval	api.h	/^    DTVInterval interval;                    \/\/ Fraction of symbol length used as guard (Guard Interval).$/;"	m	struct:__anon19
+interval	iocontrol.h	/^	Byte				interval;$/;"	m	struct:__anon35
+interval	type.h	/^	Interval	interval;                 \/** Fraction of symbol length used as guard (Guard Interval) *\/$/;"	m	struct:__anon143
+interval	type.h	/^    Byte interval;$/;"	m	struct:_TPS
+interval	type.h	/^    Interval interval;$/;"	m	struct:__anon98
+inversion	type.h	/^    Bool			inversion;$/;"	m	struct:__anon131
+inversion_list	torf.c	/^static const Param inversion_list [] = {$/;"	v	file:
+ipCounter	type.h	/^	Byte ipCounter;$/;"	m	struct:__anon135
+ipCounter	type.h	/^	Byte ipCounter;$/;"	m	struct:__anon136
+ipVersion	api.h	/^	DTVIpVersion ipVersion;      \/\/ The IP version of this platform.$/;"	m	struct:__anon8
+ipVersion	type.h	/^	IpVersion ipVersion;$/;"	m	struct:__anon102
+isLocked	type.h	/^	IsLocked			isLocked;$/;"	m	struct:__anon132
+isPartialReception	type.h	/^	Bool					isPartialReception;$/;"	m	struct:_TMCCINFO
+isPartialReception	type.h	/^	Bool		isPartialReception;$/;"	m	struct:__anon143
+isdbtModulationAddr	iocontrol.h	/^    __u32			  	isdbtModulationAddr;	\/\/	ISDBTModulation$/;"	m	struct:__anon71
+iso639LanguageCode	api.h	/^	char iso639LanguageCode[3];  \/\/ The ISO 639 language code for platform name.$/;"	m	struct:__anon8
+iso639LanguageCode	type.h	/^	char iso639LanguageCode[3];$/;"	m	struct:__anon102
+kbhit	torf.c	/^int kbhit(void)  $/;"	f
+language	api.h	/^    Byte language;				\/\/ Language code.$/;"	m	struct:__anon23
+language	type.h	/^	Byte language;				\/\/ Language code$/;"	m	struct:__anon106
+layer	iocontrol.h	/^	TransportLayer  	layer;$/;"	m	struct:__anon75
+layerA	type.h	/^	TMCC					layerA;$/;"	m	struct:_TMCCINFO
+layerA	type.h	/^	TMCC		layerA;$/;"	m	struct:__anon143
+layerB	type.h	/^	TMCC					layerB;	$/;"	m	struct:_TMCCINFO
+layerB	type.h	/^	TMCC		layerB;$/;"	m	struct:__anon143
+leaveStreamType	type.h	/^	LeaveStreamType		leaveStreamType;$/;"	m	struct:__anon132
+len	iocontrol.h	/^	__u32			len;$/;"	m	struct:__anon59
+length	type.h	/^	Byte length;$/;"	m	struct:__anon111
+loadFirmware	type.h	/^	LoadFirmware			loadFirmware;$/;"	m	struct:__anon130
+locked	iocontrol.h	/^    Bool				locked;$/;"	m	struct:__anon41
+lowCodeRate	api.h	/^    DTVCodeRate lowCodeRate;                 \/\/ FEC coding ratio of low-priority stream.$/;"	m	struct:__anon19
+lowCodeRate	type.h	/^    Byte lowCodeRate;$/;"	m	struct:_TPS
+lowCodeRate	type.h	/^    CodeRate lowCodeRate;$/;"	m	struct:__anon98
+main	torf.c	/^int main(int argc, char **argv)$/;"	f
+maxGain	iocontrol.h	/^	int				maxGain;$/;"	m	struct:__anon60
+mcisiReady	type.h	/^	Bool mcisiReady;$/;"	m	struct:__anon136
+mean	type.h	/^	Dword mean;$/;"	m	struct:__anon119
+milliseconds	type.h	/^	Word milliseconds;$/;"	m	struct:__anon112
+minGain	iocontrol.h	/^	int				minGain;$/;"	m	struct:__anon60
+minutes	type.h	/^	Byte minutes;$/;"	m	struct:__anon112
+mjd	type.h	/^	Dword mjd;$/;"	m	struct:__anon112
+mode	iocontrol.h	/^    PcrMode			mode;$/;"	m	struct:__anon76
+mode	type.h	/^    Mode mode;$/;"	m	struct:__anon98
+modifyRegister	type.h	/^	ModifyRegister			modifyRegister;$/;"	m	struct:__anon130
+mpefecFrameErrorCount	api.h	/^    Byte mpefecFrameErrorCount; \/\/ MPE-FEC Frame Error Ratio (error ratio after MPE-FEC) = mpefecFrameErrorCount \/ 128.$/;"	m	struct:__anon12
+mpefecFrameErrorRatio	type.h	/^	Byte mpefecFrameErrorRatio; \/\/ MPE-FEC Frame Error Ratio (error ratio after MPE-FEC) = mpefecFrameErrorCount \/ 128$/;"	m	struct:__anon126
+name	torf.c	/^	char *name;$/;"	m	struct:__anon80	file:
+openTuner	type.h	/^	OpenTuner		openTuner;$/;"	m	struct:__anon131
+options	type.h	/^	Dword options;$/;"	m	struct:__anon133
+options	type.h	/^	Dword options;$/;"	m	struct:__anon134
+options	type.h	/^	Dword options;$/;"	m	struct:__anon135
+options	type.h	/^	Dword options;$/;"	m	struct:__anon136
+outputGain	type.h	/^	int		outputGain;	$/;"	m	struct:__anon84
+pBufferAddr	iocontrol.h	/^    __u32 				pBufferAddr;			\/\/ Byte*$/;"	m	struct:__anon67
+pIQtableAddr	iocontrol.h	/^	__u32				pIQtableAddr;		\/\/ Byte*$/;"	m	struct:__anon68
+pTMCCINFO	type.h	/^} TMCCINFO, *pTMCCINFO;$/;"	t	typeref:struct:_TMCCINFO
+pTPS	type.h	/^} TPS, *pTPS;$/;"	t	typeref:struct:_TPS
+p_coderate	torf.c	/^int p_coderate = 3;$/;"	v
+p_interval	torf.c	/^int p_interval = 1;$/;"	v
+p_psk	torf.c	/^int p_psk = 2;$/;"	v
+pbufferAddr	iocontrol.h	/^	__u32     	   pbufferAddr;$/;"	m	struct:__anon65
+pbufferAddr	iocontrol.h	/^	__u32         pbufferAddr;$/;"	m	struct:__anon64
+pdwBufferLength	iocontrol.h	/^    __u32 				pdwBufferLength;$/;"	m	struct:__anon67
+pid	iocontrol.h	/^    Pid					pid;$/;"	m	struct:__anon43
+pid	iocontrol.h	/^    Pid					pid;$/;"	m	struct:__anon44
+pid	iocontrol.h	/^    Pid             	pid;$/;"	m	struct:__anon75
+pid	torf.c	/^	uint16_t pid;$/;"	m	struct:__anon82	file:
+pid	type.h	/^	Word pid[32];$/;"	m	struct:__anon124
+pidCounter	type.h	/^	Byte pidCounter;$/;"	m	struct:__anon134
+pidCounter	type.h	/^	Byte pidCounter;$/;"	m	struct:__anon135
+pidCounter	type.h	/^	Byte pidCounter;$/;"	m	struct:__anon136
+pidTable	type.h	/^	PidTable pidTable[2];$/;"	m	struct:__anon134
+pidTable	type.h	/^	PidTable pidTable[2];$/;"	m	struct:__anon135
+pidTable	type.h	/^	PidTable pidTable[2];$/;"	m	struct:__anon136
+platform	type.h	/^	Platform platform;$/;"	m	struct:__anon135
+platform	type.h	/^	Platform platform;$/;"	m	struct:__anon136
+platformId	api.h	/^	Dword platformId;            \/\/ The ID of platform.$/;"	m	struct:__anon8
+platformId	type.h	/^	Dword platformId;$/;"	m	struct:__anon102
+platformLength	iocontrol.h	/^    Byte*				platformLength;$/;"	m	struct:__anon42
+platformName	api.h	/^	char platformName[32];       \/\/ The char array to store platform name.$/;"	m	struct:__anon8
+platformName	type.h	/^	char platformName[32];$/;"	m	struct:__anon102
+platformNameLength	api.h	/^	Byte platformNameLength;     \/\/ The length of platform name.$/;"	m	struct:__anon8
+platformNameLength	type.h	/^	Byte platformNameLength;$/;"	m	struct:__anon102
+platformReady	type.h	/^	Bool platformReady;$/;"	m	struct:__anon135
+platformReady	type.h	/^	Bool platformReady;$/;"	m	struct:__anon136
+platforms	iocontrol.h	/^    Platform*			platforms;$/;"	m	struct:__anon42
+postVitBitCount	api.h	/^    Dword postVitBitCount;      \/\/ TotalBitCount.$/;"	m	struct:__anon12
+postVitBitCount	inttype.h	/^    Dword postVitBitCount;$/;"	m	struct:__anon26
+postVitBitCount	type.h	/^	Dword postVitBitCount;$/;"	m	struct:__anon127
+postVitBitCount	type.h	/^	Dword postVitBitCount;$/;"	m	struct:__anon128
+postVitErrorCount	api.h	/^    Dword postVitErrorCount;    \/\/ ErrorBitCount.$/;"	m	struct:__anon12
+postVitErrorCount	inttype.h	/^    Dword postVitErrorCount;$/;"	m	struct:__anon26
+postVitErrorCount	type.h	/^	Dword postVitErrorCount;$/;"	m	struct:__anon127
+postVitErrorCount	type.h	/^	Dword postVitErrorCount;$/;"	m	struct:__anon128
+preVitBitCount	inttype.h	/^    Dword preVitBitCount;$/;"	m	struct:__anon26
+preVitBitCount	type.h	/^	Dword preVitBitCount;$/;"	m	struct:__anon127
+preVitBitCount	type.h	/^	Dword preVitBitCount;$/;"	m	struct:__anon128
+preVitErrorCount	inttype.h	/^    Dword preVitErrorCount;$/;"	m	struct:__anon26
+preVitErrorCount	type.h	/^	Dword preVitErrorCount;$/;"	m	struct:__anon127
+preVitErrorCount	type.h	/^	Dword preVitErrorCount;$/;"	m	struct:__anon128
+primary	api.h	/^    Byte primary;					\/\/ Primary\/Secondary.$/;"	m	struct:__anon23
+primary	type.h	/^	Byte primary;				\/\/ Primary\/Secondary$/;"	m	struct:__anon106
+priority	api.h	/^	DTVPriority priority;		\/\/ The priority of MPE data. Only valid when sectionType is set to SectionType_MPE.$/;"	m	struct:__anon11
+priority	api.h	/^	DTVPriority priority;        \/\/ The priority of IP. See the defination of Priority.$/;"	m	struct:__anon7
+priority	api.h	/^    DTVPriority priority;                    \/\/ The priority of stream.$/;"	m	struct:__anon19
+priority	type.h	/^	Priority priority;$/;"	m	struct:__anon101
+priority	type.h	/^	Priority priority;$/;"	m	struct:__anon98
+priority	type.h	/^    Priority priority;          \/** The priority of MPE data. Only valid when sectionType is set to SectionType_MPE.              *\/$/;"	m	struct:__anon109
+processor	iocontrol.h	/^    Processor		processor;$/;"	m	struct:__anon28
+processor	iocontrol.h	/^    Processor		processor;$/;"	m	struct:__anon29
+processor	iocontrol.h	/^    Processor		processor;$/;"	m	struct:__anon31
+processor	iocontrol.h	/^    Processor		processor;$/;"	m	struct:__anon32
+product	type.h	/^	Product product;$/;"	m	struct:__anon125
+product	type.h	/^	Product product;$/;"	m	struct:__anon133
+product	type.h	/^	Product product;$/;"	m	struct:__anon134
+product	type.h	/^	Product product;$/;"	m	struct:__anon135
+product	type.h	/^	Product product;$/;"	m	struct:__anon136
+protectionLevel	type.h	/^	ProtectionLevel protectionLevel;$/;"	m	struct:__anon99
+psiTableIndex	iocontrol.h	/^	Byte			psiTableIndex;$/;"	m	struct:__anon66
+psiTableIndex	iocontrol.h	/^	Byte		   psiTableIndex;$/;"	m	struct:__anon65
+ptrDCtable	type.h	/^    DCtable *ptrDCtable;$/;"	m	struct:__anon86
+ptrIQtableEx	type.h	/^    IQtable *ptrIQtableEx;$/;"	m	struct:__anon84
+ptrOFStable	type.h	/^	DCtable *ptrOFStable;$/;"	m	struct:__anon86
+q	type.h	/^	int  q;	$/;"	m	struct:__anon85
+readEepromValues	type.h	/^	ReadEepromValues		readEepromValues;$/;"	m	struct:__anon130
+readRegisters	type.h	/^	ReadRegisters			readRegisters;$/;"	m	struct:__anon130
+readScatterRegisters	type.h	/^	ReadScatterRegisters	readScatterRegisters;$/;"	m	struct:__anon130
+readTunerRegisters	type.h	/^	ReadTunerRegisters		readTunerRegisters;$/;"	m	struct:__anon130
+reboot	type.h	/^	Reboot					reboot;$/;"	m	struct:__anon130
+receiveData	type.h	/^	ReceiveData				receiveData;$/;"	m	struct:__anon130
+registerAddress	iocontrol.h	/^    Word			registerAddress;$/;"	m	struct:__anon30
+registerAddress	iocontrol.h	/^    Word			registerAddress;$/;"	m	struct:__anon33
+registerAddress	iocontrol.h	/^    __u32			registerAddress;$/;"	m	struct:__anon28
+registerAddress	iocontrol.h	/^    __u32			registerAddress;$/;"	m	struct:__anon29
+registerAddress	iocontrol.h	/^    __u32			registerAddress;$/;"	m	struct:__anon31
+registerAddress	iocontrol.h	/^    __u32			registerAddress;$/;"	m	struct:__anon32
+registerAddressLength	type.h	/^    Byte			registerAddressLength;$/;"	m	struct:__anon131
+reserved	api.h	/^    Byte  reserved[128];$/;"	m	struct:__anon4
+reserved	iocontrol.h	/^    Byte				reserved[16];    $/;"	m	struct:__anon78
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon34
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon35
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon36
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon37
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon38
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon39
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon41
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon42
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon43
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon44
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon47
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon48
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon51
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon52
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon67
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon68
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon69
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon71
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon72
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon73
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon74
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon75
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon76
+reserved	iocontrol.h	/^    Byte				reserved[16];$/;"	m	struct:__anon77
+reserved	iocontrol.h	/^    Byte			reserved[16];	$/;"	m	struct:__anon60
+reserved	iocontrol.h	/^    Byte			reserved[16];	$/;"	m	struct:__anon61
+reserved	iocontrol.h	/^    Byte			reserved[16];	$/;"	m	struct:__anon66
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon28
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon29
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon30
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon31
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon32
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon33
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon45
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon46
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon49
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon50
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon55
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon56
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon57
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon58
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon59
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon70
+reserved	iocontrol.h	/^    Byte			reserved[16];$/;"	m	struct:__anon79
+reserved	iocontrol.h	/^    Byte		   reserved[16];	$/;"	m	struct:__anon62
+reserved	iocontrol.h	/^    Byte		   reserved[16];	$/;"	m	struct:__anon63
+reserved	iocontrol.h	/^    Byte		   reserved[16];	$/;"	m	struct:__anon64
+reserved	iocontrol.h	/^    Byte		   reserved[16];	$/;"	m	struct:__anon65
+reserved	iocontrol.h	/^    Byte                reserved[128];$/;"	m	struct:__anon53
+reserved	iocontrol.h	/^    Byte                reserved[128];$/;"	m	struct:__anon54
+sawBandwidth	type.h	/^	Word sawBandwidth;$/;"	m	struct:__anon133
+sawBandwidth	type.h	/^	Word sawBandwidth;$/;"	m	struct:__anon134
+sawBandwidth	type.h	/^	Word sawBandwidth;$/;"	m	struct:__anon135
+sawBandwidth	type.h	/^	Word sawBandwidth;$/;"	m	struct:__anon136
+sc_CRCTab	crc.h	/^static const unsigned int sc_CRCTab[256] =$/;"	v
+script	type.h	/^	ValueSet* script;$/;"	m	struct:__anon133
+script	type.h	/^	ValueSet* script;$/;"	m	struct:__anon134
+script	type.h	/^	ValueSet* script;$/;"	m	struct:__anon135
+script	type.h	/^	ValueSet* script;$/;"	m	struct:__anon136
+scriptLength	type.h	/^	Word scriptLength;$/;"	m	struct:__anon133
+scriptLength	type.h	/^	Word scriptLength;$/;"	m	struct:__anon134
+scriptLength	type.h	/^	Word scriptLength;$/;"	m	struct:__anon135
+scriptLength	type.h	/^	Word scriptLength;$/;"	m	struct:__anon136
+seconds	type.h	/^	Byte seconds;$/;"	m	struct:__anon112
+sectionType	api.h	/^	DTVSectionType sectionType;	\/\/ The section type of pid. See the defination of SectionType.$/;"	m	struct:__anon11
+sectionType	type.h	/^    SectionType sectionType;    \/** The section type of pid. See the defination of SectionType.                                   *\/$/;"	m	struct:__anon109
+segmentLength	type.h	/^    Dword segmentLength;$/;"	m	struct:__anon88
+segmentType	type.h	/^    Byte segmentType;           \/** 0:Firmware download 1:Rom copy 2:Direct command *\/$/;"	m	struct:__anon88
+sendCommand	type.h	/^	SendCommand				sendCommand;$/;"	m	struct:__anon130
+sequence1	torf.c	/^	uint8_t  sequence1;$/;"	m	struct:__anon82	file:
+sequence2	torf.c	/^	uint8_t  sequence2;$/;"	m	struct:__anon82	file:
+servaddr	torf.c	/^struct sockaddr_in servaddr,cliaddr;$/;"	v	typeref:struct:sockaddr_in
+service	type.h	/^	Service service;$/;"	m	struct:__anon136
+serviceId	api.h	/^    Dword serviceId;				\/\/ Service ID.$/;"	m	struct:__anon23
+serviceId	api.h	/^    Dword serviceId;$/;"	m	struct:__anon22
+serviceId	type.h	/^	Dword serviceId;			\/\/ Service ID$/;"	m	struct:__anon106
+serviceId	type.h	/^	Dword serviceId;$/;"	m	struct:__anon105
+serviceLabel	api.h	/^    DTVLabel serviceLabel;$/;"	m	struct:__anon22
+serviceLabel	type.h	/^	Label serviceLabel;$/;"	m	struct:__anon105
+serviceType	api.h	/^    Byte serviceType;				\/\/ Service Type(P\/D): 0x00: Program, 0x80: Data.$/;"	m	struct:__anon23
+serviceType	api.h	/^    Byte serviceType;            \/\/ Service Type(P\/D): 0x00: Program, 0x80: Data.$/;"	m	struct:__anon22
+serviceType	type.h	/^	Byte serviceType;			\/\/ Service Type(P\/D): 0x00: Program, 0x80: Data$/;"	m	struct:__anon106
+serviceType	type.h	/^	Byte serviceType;		\/\/ Service Type(P\/D): 0x00: Program, 0x80: Data$/;"	m	struct:__anon105
+setTuner	type.h	/^    SetTuner		setTuner;$/;"	m	struct:__anon131
+shiftIndex	type.h	/^	Byte shiftIndex;$/;"	m	struct:__anon133
+shiftIndex	type.h	/^	Byte shiftIndex;$/;"	m	struct:__anon134
+shiftIndex	type.h	/^	Byte shiftIndex;$/;"	m	struct:__anon135
+shiftIndex	type.h	/^	Byte shiftIndex;$/;"	m	struct:__anon136
+signalLocked	api.h	/^    Bool signalLocked;          \/\/ MPEG lock.$/;"	m	struct:__anon12
+signalLocked	type.h	/^    Bool signalLocked;          \/** Signal is locked.                                                                            *\/$/;"	m	struct:__anon126
+signalPresented	api.h	/^    Bool signalPresented;       \/\/ TPS lock.$/;"	m	struct:__anon12
+signalPresented	type.h	/^    Bool signalPresented;       \/** Signal is presented.                                                                         *\/$/;"	m	struct:__anon126
+signalQuality	api.h	/^    Word signalQuality;         \/\/ Signal quality (0 - 100).$/;"	m	struct:__anon12
+signalQuality	type.h	/^    Byte signalQuality;         \/** Signal quality, from 0 (poor) to 100 (good).                                                 *\/$/;"	m	struct:__anon126
+signalStrength	api.h	/^    Word signalStrength;        \/\/ Signal strength (0 - 100).$/;"	m	struct:__anon12
+signalStrength	type.h	/^    Byte signalStrength;        \/** Signal strength from 0 (weak) to 100 (strong).                                               *\/$/;"	m	struct:__anon126
+sipsiReady	type.h	/^	Bool sipsiReady;$/;"	m	struct:__anon135
+sipsiReady	type.h	/^	Bool sipsiReady;$/;"	m	struct:__anon136
+snr	inttype.h	/^    Dword snr;$/;"	m	struct:__anon25
+snr	inttype.h	/^    double snr;$/;"	m	struct:__anon26
+snr	type.h	/^	Dword snr;$/;"	m	struct:__anon118
+snr	type.h	/^	double snr;$/;"	m	struct:__anon127
+snr	type.h	/^	double snr;$/;"	m	struct:__anon128
+sockfd	torf.c	/^int sockfd;$/;"	v
+softBitCount	inttype.h	/^    Dword softBitCount;$/;"	m	struct:__anon26
+softBitCount	type.h	/^	Dword softBitCount;$/;"	m	struct:__anon127
+softBitCount	type.h	/^	Dword softBitCount;$/;"	m	struct:__anon128
+softErrorCount	inttype.h	/^    Dword softErrorCount;$/;"	m	struct:__anon26
+softErrorCount	type.h	/^	Dword softErrorCount;$/;"	m	struct:__anon127
+softErrorCount	type.h	/^	Dword softErrorCount;$/;"	m	struct:__anon128
+startFrequency	type.h	/^    Dword startFrequency;      \/**  *\/$/;"	m	struct:__anon85
+statistic	iocontrol.h	/^	Statistic			statistic;$/;"	m	struct:__anon48
+statistic	type.h	/^	Statistic statistic[2];$/;"	m	struct:__anon133
+statistic	type.h	/^	Statistic statistic[2];$/;"	m	struct:__anon134
+statistic	type.h	/^	Statistic statistic[2];$/;"	m	struct:__anon135
+statistic	type.h	/^	Statistic statistic[2];$/;"	m	struct:__anon136
+statisticPaused	type.h	/^	Bool statisticPaused;$/;"	m	struct:__anon133
+statisticPaused	type.h	/^	Bool statisticPaused;$/;"	m	struct:__anon134
+statisticPaused	type.h	/^	Bool statisticPaused;$/;"	m	struct:__anon135
+statisticPaused	type.h	/^	Bool statisticPaused;$/;"	m	struct:__anon136
+statisticUpdated	type.h	/^	Bool statisticUpdated;$/;"	m	struct:__anon133
+statisticUpdated	type.h	/^	Bool statisticUpdated;$/;"	m	struct:__anon134
+statisticUpdated	type.h	/^	Bool statisticUpdated;$/;"	m	struct:__anon135
+statisticUpdated	type.h	/^	Bool statisticUpdated;$/;"	m	struct:__anon136
+streamType	type.h	/^	StreamType streamType;$/;"	m	struct:__anon133
+streamType	type.h	/^	StreamType streamType;$/;"	m	struct:__anon134
+streamType	type.h	/^	StreamType streamType;$/;"	m	struct:__anon135
+streamType	type.h	/^	StreamType streamType;$/;"	m	struct:__anon136
+strengthTable	type.h	/^	Long*			strengthTable;$/;"	m	struct:__anon131
+string	api.h	/^    Byte string[16];$/;"	m	struct:__anon20
+string	type.h	/^	Byte string[16];$/;"	m	struct:__anon103
+strongSignal	type.h	/^	Byte strongSignal[2];$/;"	m	struct:__anon133
+strongSignal	type.h	/^	Byte strongSignal[2];$/;"	m	struct:__anon134
+strongSignal	type.h	/^	Byte strongSignal[2];$/;"	m	struct:__anon135
+strongSignal	type.h	/^	Byte strongSignal[2];$/;"	m	struct:__anon136
+subchannelId	type.h	/^	Byte subchannelId;$/;"	m	struct:__anon99
+subchannelSize	type.h	/^	Word subchannelSize;$/;"	m	struct:__anon99
+subchannelStatistic	type.h	/^	SubchannelStatistic subchannelStatistic[2];$/;"	m	struct:__anon136
+subchannelType	type.h	/^	SubchannelType subchannelType;$/;"	m	struct:__anon99
+systemIdentification	type.h	/^	SystemIdentification	systemIdentification;$/;"	m	struct:_TMCCINFO
+table	api.h	/^	Byte table;					\/\/ The table ID. Which is used to filter specific SI\/PSI table.$/;"	m	struct:__anon11
+table	type.h	/^    Byte table;                 \/** The table ID. Which is used to filter specific SI\/PSI table.                                  *\/$/;"	m	struct:__anon109
+tableGroups	type.h	/^	Word	tableGroups;		\/\/Number of IQtable groups;	$/;"	m	struct:__anon86
+tableGroups	type.h	/^	Word	tableGroups;		\/\/Number of IQtable groups;$/;"	m	struct:__anon84
+tableVersion	type.h	/^	Dword	tableVersion;		\/\/tableVersion;$/;"	m	struct:__anon84
+tdmbStandardDescription	type.h	/^	StandardDescription tdmbStandardDescription;$/;"	m	struct:__anon136
+tiiCombination	type.h	/^	Byte tiiCombination;$/;"	m	struct:__anon99
+tiiPrimary	type.h	/^	Byte tiiPrimary;$/;"	m	struct:__anon99
+timer	iocontrol.h	/^	Word			timer;$/;"	m	struct:__anon66
+totalComponents	api.h	/^    Byte totalComponents;$/;"	m	struct:__anon22
+totalComponents	type.h	/^	Byte totalComponents;$/;"	m	struct:__anon105
+totalServices	api.h	/^    Byte totalServices;$/;"	m	struct:__anon21
+totalServices	type.h	/^	Byte totalServices;$/;"	m	struct:__anon104
+tps	iocontrol.h	/^    TPS				tps;$/;"	m	struct:__anon61
+tps	iocontrol.h	/^    TPS            tps;$/;"	m	struct:__anon62
+transmissionId	api.h	/^    Byte transmissionId;			\/\/ Transmission Mechanism ID.$/;"	m	struct:__anon23
+transmissionId	type.h	/^	Byte transmissionId;		\/\/ Transmission Mechanism ID$/;"	m	struct:__anon106
+transmissionMode	api.h	/^    Byte transmissionMode;$/;"	m	struct:_MODULATION_PARAM
+transmissionMode	api.h	/^    DTVTransmissionMode transmissionMode;	\/\/ Number of carriers used for OFDM signal.$/;"	m	struct:__anon19
+transmissionMode	iocontrol.h	/^    Byte 				transmissionMode;$/;"	m	struct:__anon35
+transmissionMode	type.h	/^	Byte transmissionMode;				\/\/ transmissionMode = 1, 2, 3, 4$/;"	m	struct:__anon99
+transmissionMode	type.h	/^	TransmissionModes transmissionMode; \/** Number of carriers used for OFDM signal                  *\/$/;"	m	struct:__anon143
+transmissionMode	type.h	/^    Byte transmissionMode;$/;"	m	struct:_TPS
+transmissionmode_list	torf.c	/^static const Param transmissionmode_list [] = {$/;"	v	file:
+tunerAddress	type.h	/^    Byte			tunerAddress;$/;"	m	struct:__anon131
+tunerDescription	type.h	/^	TunerDescription tunerDescription;$/;"	m	struct:__anon133
+tunerDescription	type.h	/^	TunerDescription tunerDescription;$/;"	m	struct:__anon134
+tunerDescription	type.h	/^	TunerDescription tunerDescription;$/;"	m	struct:__anon135
+tunerDescription	type.h	/^	TunerDescription tunerDescription;$/;"	m	struct:__anon136
+tunerId	type.h	/^	Word tunerId;$/;"	m	struct:__anon133
+tunerId	type.h	/^	Word tunerId;$/;"	m	struct:__anon134
+tunerId	type.h	/^	Word tunerId;$/;"	m	struct:__anon135
+tunerId	type.h	/^	Word tunerId;$/;"	m	struct:__anon136
+tunerScript	type.h	/^    ValueSet*		tunerScript;$/;"	m	struct:__anon131
+tunerScriptLength	type.h	/^    Word			tunerScriptLength;$/;"	m	struct:__anon131
+ulErrCount	torf.c	/^	uint32_t ulErrCount;$/;"	m	struct:__anon82	file:
+ulLostCount	torf.c	/^	uint32_t ulLostCount;$/;"	m	struct:__anon82	file:
+unplugThreshold	type.h	/^	Byte unplugThreshold;$/;"	m	struct:__anon133
+unplugThreshold	type.h	/^	Byte unplugThreshold;$/;"	m	struct:__anon134
+unplugThreshold	type.h	/^	Byte unplugThreshold;$/;"	m	struct:__anon135
+unplugThreshold	type.h	/^	Byte unplugThreshold;$/;"	m	struct:__anon136
+userData	type.h	/^	Handle userData;$/;"	m	struct:__anon125
+userData	type.h	/^	Handle userData;$/;"	m	struct:__anon133
+userData	type.h	/^	Handle userData;$/;"	m	struct:__anon134
+userData	type.h	/^	Handle userData;$/;"	m	struct:__anon135
+userData	type.h	/^	Handle userData;$/;"	m	struct:__anon136
+value	api.h	/^	Word value;					\/\/ The 13 bits Packet ID.$/;"	m	struct:__anon11
+value	torf.c	/^	int value;$/;"	m	struct:__anon80	file:
+value	type.h	/^	Byte* value;$/;"	m	struct:__anon111
+value	type.h	/^    Byte value;         \/** The value of target register   *\/$/;"	m	struct:__anon110
+value	type.h	/^    Word value;                 \/** The 13 bits Packet ID.                                                                        *\/$/;"	m	struct:__anon109
+version	api.h	/^	DTVIpVersion version;		\/\/ The IP version of MPE data. Only valid when sectionType is set to SectionType_MPE.$/;"	m	struct:__anon11
+version	api.h	/^	DTVIpVersion version;        \/\/ The version of IP. See the defination of IpVersion.$/;"	m	struct:__anon7
+version	type.h	/^	IpVersion version;$/;"	m	struct:__anon101
+version	type.h	/^    IpVersion version;          \/** The IP version of MPE data. Only valid when sectionType is set to SectionType_MPE.            *\/$/;"	m	struct:__anon109
+versionReady	type.h	/^	Bool versionReady;$/;"	m	struct:__anon135
+versionReady	type.h	/^	Bool versionReady;$/;"	m	struct:__anon136
+writeEepromValues	type.h	/^	WriteEepromValues		writeEepromValues;$/;"	m	struct:__anon130
+writeRegisters	type.h	/^	WriteRegisters			writeRegisters;$/;"	m	struct:__anon130
+writeScatterRegisters	type.h	/^	WriteScatterRegisters	writeScatterRegisters;$/;"	m	struct:__anon130
+writeTunerRegisters	type.h	/^	WriteTunerRegisters		writeTunerRegisters;$/;"	m	struct:__anon130
